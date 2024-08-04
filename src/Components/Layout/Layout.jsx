@@ -2,11 +2,12 @@ import React from "react";
 import { Outlet } from "react-router-dom";
 import Navbar from "../Navbar/Navbar";
 import Footer from "../Footer/Footer";
-import Head from "../Head/Head";
+import HeadInfo from "../HeadInfo/HeadInfo";
+
 export default function Layout() {
   return (
     <>
-      <Head />
+      <HeadInfo />
       <Navbar />
       <Outlet />
       <Footer />

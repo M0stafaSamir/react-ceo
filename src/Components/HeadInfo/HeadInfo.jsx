@@ -1,9 +1,11 @@
 import React from "react";
 
-export default function Head() {
+export default function HeadInfo() {
   return (
     <>
-      <div dir="ltr" className="headInfo position-fixed top-0 w-100 text-white">
+      <div
+        dir="ltr"
+        className="headInfo z-1 position-fixed top-0 w-100 text-white">
         <div className="container">
           <div className="d-flex justify-content-between align-items-center">
             <div className="d-flex justify-content-around">
@@ -19,7 +21,7 @@ export default function Head() {
               </p>
               <p className="m-0 py-2 px-4">
                 <i className="fa-regular fa-clock mainColor"></i> Open Hours
-                09:00 AM - 06:30 PM
+                09:00 AM - 05:00 PM
               </p>
             </div>
             <div className="d-flex">

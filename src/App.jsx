@@ -6,20 +6,19 @@ import LanguageDetector from "i18next-browser-languagedetector";
 import HttpApi from "i18next-http-backend";
 import Cookies from "js-cookie";
 import { t } from "i18next";
-import Navbar from "./Components/Navbar/Navbar";
-import Home from "./Components/Home/Home";
-import Head from "./Components/Head/Head";
-import WhoWeAre from "./Components/WhoWeAre/WhoWeAre";
-import Services from "./Components/Services/Services";
-import OurClients from "./Components/OurClients/OurClients";
-import ProjectFields from "./Components/ProjectFields/ProjectFields";
-import VisionMission from "./Components/VisionMission/VisionMission";
-import Footer from "./Components/Footer/Footer";
-import States from "./Components/States/States";
 
 import translationEn from "/public/locale/en/translation.json";
 import translationAr from "/public/locale/ar/translation.json";
 import Layout from "./Components/Layout/Layout";
+import Home from "./Components/Home/Home";
+import ServiceOne from "./Components/ServiceOne/ServiceOne";
+import ServiceTwo from "./Components/ServiceTwo/ServiceTwo";
+import ServiceThree from "./Components/ServiceThree/ServiceThree";
+import ServiceFive from "./Components/ServiceFive/ServiceFive";
+import ServiceSix from "./Components/ServiceSix/ServiceSix";
+import ServiceSeven from "./Components/ServiceSeven/ServiceSeven";
+import ServiceEight from "./Components/ServiceEight/ServiceEight";
+import ServiceFour from "./Components/ServiceFour/ServiceFour";
 
 i18n
   .use(initReactI18next)
@@ -78,9 +77,14 @@ function App() {
       element: <Layout />,
       children: [
         { index: true, element: <Home /> },
-        { path: "we", element: <WhoWeAre /> },
-        { path: "services", element: <Services /> },
-        { path: "vision", element: <VisionMission /> },
+        { path: "serviceOne", element: <ServiceOne /> },
+        { path: "serviceTwo", element: <ServiceTwo /> },
+        { path: "serviceThree", element: <ServiceThree /> },
+        { path: "serviceFour", element: <ServiceFour /> },
+        { path: "HighwaysAndBridges", element: <ServiceFive /> },
+        { path: "LandscapingAndPublicRealm", element: <ServiceSix /> },
+        { path: "UtilitiesAndInfrastructures", element: <ServiceSeven /> },
+        { path: "TheUrbanAndMasterPlanning", element: <ServiceEight /> },
       ],
     },
   ]);

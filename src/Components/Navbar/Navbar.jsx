@@ -5,6 +5,7 @@ import Cookies from "js-cookie";
 import arabicFlag from "./../../assets/imgs/flags/egypt-flag-icon.svg";
 import englishFlag from "./../../assets/imgs/flags/united-kingdom-flag-icon.svg";
 import i18n from "i18next";
+import { NavLink } from "react-router-dom";
 
 export default function Navbar() {
   // const handleRefresh = () => {
@@ -71,17 +72,16 @@ export default function Navbar() {
                   : "navbar-nav ms-auto mb-2 mb-lg-0"
               }>
               <li className="nav-item">
-                <a
-                  className="nav-link underLine text-white fw-medium active"
+                <NavLink
+                  className="nav-link underLine text-capitalize text-white fw-medium active"
                   aria-current="page"
-                  href="index.html"
-                  data-i18n="home">
+                  to="/">
                   {t("home")}
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle text-white fw-medium"
+                  className="nav-link dropdown-toggle text-capitalize text-white fw-medium"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -90,77 +90,67 @@ export default function Navbar() {
                 </a>
                 <ul className="dropdown-menu border-0 pt-0">
                   <li>
-                    <a
+                    <NavLink
                       className="dropdown-item ps-4"
                       data-i18n="service1"
-                      href="architecture_and_building_service.html">
+                      to="/serviceOne">
                       {t("service1")}
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a
-                      className="dropdown-item ps-4"
-                      data-i18n="service3"
-                      href="project_and_construction_service.html">
+                    <NavLink className="dropdown-item ps-4" to="/serviceTwo">
                       {t("service2")}
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a
-                      className="dropdown-item ps-4"
-                      data-i18n="service2"
-                      href="Contracts_and_Cost_Consultancy_service.html">
+                    <NavLink className="dropdown-item ps-4" to="/serviceThree">
                       {t("service3")}
-                    </a>
+                    </NavLink>
                   </li>
 
                   <li>
-                    <a
-                      className="dropdown-item ps-4"
-                      data-i18n="service7"
-                      href="Solid_Waste_projects_services.html">
+                    <NavLink className="dropdown-item ps-4" to="/serviceFour">
                       {t("service4")}
-                    </a>
+                    </NavLink>
                   </li>
 
                   <li>
-                    <a
+                    <NavLink
                       className="dropdown-item ps-4"
-                      data-i18n="service5"
-                      href="Highways_and_Bridges_services.html">
+                      to="/HighwaysAndBridges">
                       {t("service5")}
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a
+                    <NavLink
                       className="dropdown-item ps-4"
                       data-i18n="service11"
-                      href="Utilities_and_Infrastructures_service.html">
+                      to="/LandscapingAndPublicRealm">
                       {t("service6")}
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a
+                    <NavLink
                       className="dropdown-item ps-4"
                       data-i18n="service6"
-                      href="Landscaping_and_Public_Realm_service.html">
+                      to="/UtilitiesAndInfrastructures">
                       {t("service7")}
-                    </a>
+                    </NavLink>
                   </li>
                   <li>
-                    <a
+                    <NavLink
                       className="dropdown-item ps-4"
                       data-i18n="service12"
-                      href="The_Urban_and_Master_Planning_service.html">
+                      to="/TheUrbanAndMasterPlanning">
                       {t("service8")}
-                    </a>
+                    </NavLink>
                   </li>
                 </ul>
               </li>
 
               <li className="nav-item dropdown">
                 <a
-                  className="nav-link dropdown-toggle text-white fw-medium"
+                  className="nav-link text-capitalize dropdown-toggle text-white fw-medium"
                   href="#"
                   role="button"
                   data-bs-toggle="dropdown"
@@ -190,7 +180,7 @@ export default function Navbar() {
 
               <li className="nav-item">
                 <a
-                  className="nav-link underLine text-white fw-medium"
+                  className="nav-link text-capitalize underLine text-white fw-medium"
                   href="aboutus.html"
                   data-i18n="aboutus">
                   {t("aboutUs")}
@@ -198,7 +188,7 @@ export default function Navbar() {
               </li>
               <li className="nav-item">
                 <a
-                  className="nav-link underLine text-white fw-medium"
+                  className="nav-link text-capitalize underLine text-white fw-medium"
                   href="contactUs.html"
                   data-i18n="contactus">
                   {t("contactUs")}

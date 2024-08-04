@@ -680,7 +680,7 @@ footer .socialIcons svg:hover {
 .service-landing img {
   height: 55vh;
   filter: brightness(0.5);
-  width: 120%;
+  width: 100%;
   animation: scaleDown 4s forwards;
 }
 .pageLocation {
