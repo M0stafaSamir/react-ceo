@@ -19,6 +19,8 @@ import ServiceSix from "./Components/ServiceSix/ServiceSix";
 import ServiceSeven from "./Components/ServiceSeven/ServiceSeven";
 import ServiceEight from "./Components/ServiceEight/ServiceEight";
 import ServiceFour from "./Components/ServiceFour/ServiceFour";
+import AboutUs from "./Components/AboutUs/AboutUs";
+import ContactUs from "./Components/ContactUs/ContactUs";
 
 i18n
   .use(initReactI18next)
@@ -85,6 +87,8 @@ function App() {
         { path: "LandscapingAndPublicRealm", element: <ServiceSix /> },
         { path: "UtilitiesAndInfrastructures", element: <ServiceSeven /> },
         { path: "TheUrbanAndMasterPlanning", element: <ServiceEight /> },
+        { path: "aboutUs", element: <AboutUs /> },
+        { path: "contactUs", element: <ContactUs /> },
       ],
     },
   ]);

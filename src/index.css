@@ -710,7 +710,7 @@ footer .socialIcons svg:hover {
   color: white;
 }
 #aboutusInfo {
-  background-image: url("../assets/backgrounds/architectural-design-building-building-wall-dark-building-modern-concrete-structure-3d-re.jpg");
+  background-image: url("/src/assets/imgs/backgrounds/architectural-design-building-building-wall-dark-building-modern-concrete-structure-3d-re.jpg");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -730,7 +730,7 @@ footer .socialIcons svg:hover {
 /********************start of contact us  page***********************************/
 #contactInfo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("../assets/backgrounds/vertical-shot-modern-office-buildings-with-big-reflective-windows-sunlight\ \(1\).jpg");
+    url("/src/assets/imgs/backgrounds/vertical-shot-modern-office-buildings-with-big-reflective-windows-sunlight\ \(1\).jpg");
 }
 .ContactBtn:hover {
   background-color: var(--secondColor);

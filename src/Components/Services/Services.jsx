@@ -63,6 +63,32 @@ export default function Services() {
             <ReactOwlCarousel {...options} className="owl-theme">
               <div className="slider-card shadow">
                 <div className="srv-img-container overflow-hidden position-relative rounded-1">
+                  <img src={service4} alt="service" />
+                  <div className="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
+                    <p className="text-white ellipsis-multiline">
+                      {t("service4_Desc")}
+                    </p>
+                    <a
+                      data-i18n="knowMore"
+                      className="text-uppercase fw-bold mainColor"
+                      href="Solid_Waste_projects_services.html">
+                      {t("readMore")}
+                    </a>
+                  </div>
+                </div>
+                <h5 className="mb-0 text-center p-3 h5 flex-column">
+                  <b data-i18n="service7"> {t("service4")} </b>
+                  {language === "en" ? (
+                    <span dir="rtl" className="chDir fs-6">
+                      {t("service4_fields")}
+                    </span>
+                  ) : (
+                    <span className="chDir fs-6">{t("service4_fields")}</span>
+                  )}
+                </h5>
+              </div>
+              <div className="slider-card shadow">
+                <div className="srv-img-container overflow-hidden position-relative rounded-1">
                   <img src={service1} alt="service" />
                   <div className="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
                     <p className="text-white ellipsis-multiline">
@@ -118,32 +144,7 @@ export default function Services() {
                   <b>{t("service3")}</b>
                 </h5>
               </div>
-              <div className="slider-card shadow">
-                <div className="srv-img-container overflow-hidden position-relative rounded-1">
-                  <img src={service4} alt="service" />
-                  <div className="servicesLayerHov position-absolute w-100 h-100 p-3 text-start">
-                    <p className="text-white ellipsis-multiline">
-                      {t("service4_Desc")}
-                    </p>
-                    <a
-                      data-i18n="knowMore"
-                      className="text-uppercase fw-bold mainColor"
-                      href="Solid_Waste_projects_services.html">
-                      {t("readMore")}
-                    </a>
-                  </div>
-                </div>
-                <h5 className="mb-0 text-center p-3 h5 flex-column">
-                  <b data-i18n="service7"> {t("service4")} </b>
-                  {language === "en" ? (
-                    <span dir="rtl" className="chDir fs-6">
-                      {t("service4_fields")}
-                    </span>
-                  ) : (
-                    <span className="chDir fs-6">{t("service4_fields")}</span>
-                  )}
-                </h5>
-              </div>
+
               <div className="slider-card shadow">
                 <div className="srv-img-container overflow-hidden position-relative rounded-1">
                   <img src={service5} alt="service" />

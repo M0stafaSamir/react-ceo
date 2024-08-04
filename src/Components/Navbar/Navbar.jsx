@@ -73,7 +73,7 @@ export default function Navbar() {
               }>
               <li className="nav-item">
                 <NavLink
-                  className="nav-link underLine text-capitalize text-white fw-medium active"
+                  className="nav-link underLine text-capitalize text-white fw-medium "
                   aria-current="page"
                   to="/">
                   {t("home")}
@@ -90,11 +90,8 @@ export default function Navbar() {
                 </a>
                 <ul className="dropdown-menu border-0 pt-0">
                   <li>
-                    <NavLink
-                      className="dropdown-item ps-4"
-                      data-i18n="service1"
-                      to="/serviceOne">
-                      {t("service1")}
+                    <NavLink className="dropdown-item ps-4" to="/serviceFour">
+                      {t("service4")}
                     </NavLink>
                   </li>
                   <li>
@@ -109,8 +106,8 @@ export default function Navbar() {
                   </li>
 
                   <li>
-                    <NavLink className="dropdown-item ps-4" to="/serviceFour">
-                      {t("service4")}
+                    <NavLink className="dropdown-item ps-4" to="/serviceOne">
+                      {t("service1")}
                     </NavLink>
                   </li>
 
@@ -179,20 +176,18 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item">
-                <a
+                <NavLink
                   className="nav-link text-capitalize underLine text-white fw-medium"
-                  href="aboutus.html"
-                  data-i18n="aboutus">
+                  to="/aboutUs">
                   {t("aboutUs")}
-                </a>
+                </NavLink>
               </li>
               <li className="nav-item">
-                <a
+                <NavLink
                   className="nav-link text-capitalize underLine text-white fw-medium"
-                  href="contactUs.html"
-                  data-i18n="contactus">
+                  to="/contactUs">
                   {t("contactUs")}
-                </a>
+                </NavLink>
               </li>
               {language === "ar" ? (
                 <li className="nav-item border-0 d-flex align-items-center mx-2">
