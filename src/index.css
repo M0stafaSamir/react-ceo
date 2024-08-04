@@ -730,7 +730,7 @@ footer .socialIcons svg:hover {
 /********************start of contact us  page***********************************/
 #contactInfo {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("/src/assets/imgs/backgrounds/vertical-shot-modern-office-buildings-with-big-reflective-windows-sunlight\ \(1\).jpg");
+    url("/src/assets/imgs/backgrounds/conatctInfoBg.jpg");
 }
 .ContactBtn:hover {
   background-color: var(--secondColor);
