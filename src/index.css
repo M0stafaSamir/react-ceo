@@ -1,0 +1,762 @@
+/****|global|****/
+* {
+  transition-timing-function: ease;
+  animation-timing-function: ease;
+}
+
+:root {
+  --mianColor: #f17f0f;
+  --secondColor: #128032;
+  --thirdColor: #1f4e7a;
+  --navColor: #2d2d2d;
+  font-family: "Cairo", sans-serif;
+  font-family: "Montserrat", sans-serif;
+}
+/*Colors*/
+.mainColor {
+  color: var(--mianColor);
+}
+.mainBg {
+  background-color: var(--mianColor);
+}
+.mainBorderColor {
+  border-color: var(--mianColor) !important;
+}
+/*Colors*/
+
+html,
+body {
+  scroll-behavior: smooth;
+  overflow-x: hidden;
+}
+
+::selection {
+  color: #ffff;
+  background: var(--mianColor);
+}
+a {
+  text-decoration: none;
+}
+/*text overflow*/
+.ellipsis-multiline {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  line-clamp: 3;
+  -webkit-line-clamp: 3;
+  overflow: hidden;
+}
+
+/*text overflow*/
+
+/*fonts*/
+.en-font {
+  font-family: "Montserrat", sans-serif;
+}
+.ar-font {
+  font-family: "Cairo", sans-serif;
+}
+/*fonts*/
+
+/*borders*/
+.border-main {
+  border: 2px solid var(--mianColor);
+}
+.bb-second {
+  border-bottom: 4px solid var(--secondColor);
+}
+.bb-third {
+  border-bottom: 4px solid var(--thirdColor);
+}
+/*borders*/
+
+/*scroll bar*/
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f2f2f2;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: var(--mianColor);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #81470d;
+}
+/*scroll bar*/
+
+/****|global|****/
+
+/****|Buttons|****/
+.mian-btn {
+  color: white;
+  background-color: var(--mianColor);
+  border-width: 2px;
+}
+.mian-btn:hover {
+  color: var(--mianColor);
+  border: 2px solid var(--mianColor);
+}
+.second-btn {
+  color: var(--mianColor);
+  border: 2px solid var(--mianColor);
+}
+.second-btn:hover {
+  color: white;
+  background-color: var(--mianColor);
+  border: 2px solid var(--mianColor);
+}
+.mian-btn,
+.second-btn {
+  width: 195px;
+}
+.detailsBtn:hover {
+  background-color: black;
+  color: var(--mianColor);
+}
+/****|Buttons|****/
+
+/* spacing */
+.w-20px {
+  width: 20px;
+}
+.w-70 {
+  width: 70%;
+}
+.w-300px {
+  width: 300px;
+}
+.h-300px {
+  height: 300px;
+}
+.h-450px {
+  height: 450px;
+}
+.sc-12 {
+  transform: scale(1.2);
+}
+/* spacing */
+
+/****|shadow box|****/
+.shadow {
+  box-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.15) !important;
+}
+/****|shadow box|****/
+
+.headInfo {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.boderColor {
+  border-color: rgba(255, 255, 255, 0.3) !important;
+}
+
+/****|start of navbar|****/
+.navbar {
+  background-color: transparent !important;
+  transition: 0.5s ease;
+  z-index: 100;
+  top: 40px;
+}
+@media (max-width: 992px) {
+  .headInfo {
+    display: none;
+  }
+  .navbar {
+    top: 0;
+  }
+}
+
+.navbar .nav-item .nav-link {
+  margin-right: 10px;
+}
+
+.dropdown-menu {
+  text-align: justify;
+}
+.nav-scrolled {
+  background-color: #2d2d2d !important;
+}
+
+.navbar .nav-item .nav-link {
+  margin-left: 10px;
+  position: relative;
+  transition: 0.5s;
+}
+.navbar .nav-item .nav-link:hover {
+  color: var(--mianColor) !important;
+}
+
+.underLine::after {
+  content: "";
+  position: absolute;
+  width: 0%;
+  height: 1.5px;
+  background-color: var(--mianColor);
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  transition: 0.5s;
+}
+
+nav .nav-link.active {
+  color: var(--mianColor) !important;
+}
+nav .nav-link.active.underLine::after {
+  width: 90%;
+}
+nav .nav-link:hover .underLine::after {
+  width: 100%;
+}
+
+/*select*/
+select option {
+  background-color: var(--mianColor);
+  color: white;
+}
+.nav-link:focus-visible {
+  box-shadow: none;
+}
+/*select*/
+.dropdown-menu {
+  background-color: var(--mianColor) !important;
+}
+
+.dropdown-menu li .dropdown-item {
+  color: white;
+}
+.dropdown-menu li .dropdown-item:hover,
+.dropdown-item.active {
+  background-color: var(--navColor) !important;
+}
+
+.navbar-toggler {
+  border: var(--bs-border-width) solid rgb(255 255 255);
+}
+.navbar-toggler-icon {
+  filter: brightness(10);
+}
+.navbar-toggler:focus {
+  text-decoration: none;
+  outline: 0;
+  box-shadow: 0 0 3px var(--mianColor);
+}
+.dropdown-toggle::after {
+  margin: 0px 5px;
+}
+
+@media (max-width: 1199.98px) {
+  .navbar .nav-item .nav-link {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar-nav {
+    background-color: var(--mianColor);
+  }
+
+  .navbar .nav-item .nav-link:hover,
+  nav .nav-link.active {
+    color: black !important;
+  }
+  #navbarLinks {
+    padding: 20px 0px;
+  }
+}
+.dropdown-toggle::after {
+  display: none;
+}
+/****|end of navbar|****/
+
+/****|start of Main|****/
+#home {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url(assets/imgs/backgrounds/backgroundPic.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#home legend {
+  color: var(--mianColor);
+}
+#home p {
+  font-size: 17px;
+}
+
+@media (max-width: 767.98px) {
+  #home {
+    text-align: center;
+  }
+  #home p {
+    margin: 0px auto;
+  }
+  .homeDescription {
+    width: 100% !important;
+  }
+}
+@media (max-width: 575.98px) {
+  .mian-btn,
+  .second-btn {
+    width: 145px;
+  }
+}
+/****|end of Main|****/
+
+/****|start of about us|****/
+#aboutUs {
+  min-height: 80vh;
+  background-image: url("/src/assets/imgs/backgrounds/whoWeBg.jpg");
+  background-size: cover;
+}
+.layerBehind::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  top: -15px;
+  left: -15px;
+  width: 100%;
+  height: 100%;
+  background-color: var(--mianColor);
+}
+.layerBehind div .weImg {
+  transition: 0.5s;
+}
+.layerBehind div:hover .weImg {
+  transform: scale(1.2);
+}
+/****|end of about us|****/
+
+/****|start of ourClients section|****/
+#ourClients {
+  min-height: 30vh;
+}
+/*back text*/
+.our-clients-en::before,
+.our-clients-ar::before,
+.our-services-en::before,
+.our-services-ar::before,
+.projects-en:before,
+.projects-ar:before {
+  position: absolute;
+  bottom: 2px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 97vw;
+  z-index: 0;
+  color: #0000001c;
+  font-size: 40px;
+}
+.our-clients-en::before {
+  content: "Our clients";
+}
+.our-clients-ar::before {
+  content: "عملائنا";
+  font-size: 60px;
+}
+@keyframes slide {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+
+.logos {
+  overflow: hidden;
+  padding-bottom: 30px;
+  background: white;
+  white-space: nowrap;
+  position: relative;
+  transition: 1s;
+}
+
+.logos:before,
+.logos:after {
+  position: absolute;
+  top: 0;
+  width: 250px;
+  height: 100%;
+  content: "";
+  z-index: 2;
+}
+
+/* .logos:before {
+  left: 0;
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), white);
+}
+
+.logos:after {
+  right: 0;
+  background: linear-gradient(to right, rgba(255, 255, 255, 0), white);
+} */
+
+/* .logos:hover .logos-slide {
+  animation-play-state: paused;
+} */
+
+.logos-slide {
+  display: inline-block;
+  animation: 35s slide infinite linear;
+  transition: 1s;
+}
+
+.logos-slide img {
+  height: 125px;
+}
+/****|end of ourClients section|****/
+
+/****|start of services section|****/
+#services {
+  min-height: 60vh;
+  background-color: #f2f2f2;
+}
+.our-services-en::before {
+  content: "Our Services";
+}
+.our-services-ar::before {
+  content: "خدماتنا";
+  font-size: 60px;
+}
+#services h5 {
+  min-height: 115px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.servicesLayerHov {
+  background-color: #000000c9;
+  top: -135%;
+  transition: 0.5s;
+}
+
+.srv-img-container:hover .servicesLayerHov {
+  top: 0;
+}
+.slider {
+  margin-bottom: 30px;
+  position: relative;
+}
+.slider .owl-item.active.center .slider-card {
+  transform: scale(1);
+  opacity: 1;
+  background: #f17f0f;
+  background: -webkit-linear-gradient(to bottom, #ff5e62, #f17f0f);
+  background: linear-gradient(to bottom, #ff5e62, #f17f0f);
+  color: #fff;
+}
+.slider-card {
+  background: #fff;
+  padding: 0px 0px;
+  margin: 50px 15px 90px 15px;
+  border-radius: 5px;
+  transform: scale(0.9);
+  opacity: 0.5;
+  transition: all 0.3s;
+}
+.slider-card img {
+  border-radius: 5px 5px 0px 0px;
+}
+.owl-nav .owl-prev {
+  position: absolute;
+  top: calc(50% - 25px);
+  left: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-nav .owl-next {
+  position: absolute;
+  top: calc(50% - 25px);
+  right: 0;
+  opacity: 1;
+  font-size: 30px !important;
+  z-index: 1;
+}
+.owl-dots {
+  text-align: center;
+}
+.owl-dots .owl-dot {
+  height: 10px;
+  width: 10px;
+  border-radius: 10px;
+  background: #ccc !important;
+  margin-left: 3px;
+  margin-right: 3px;
+  outline: none;
+}
+/* .owl-dots .owl-dot.active {
+  background: #f44336 !important;
+} */
+.owl-theme .owl-item img {
+  height: 200px;
+  object-fit: cover;
+}
+
+/*edit after react*/
+.owl-dots .owl-dot {
+  background-color: transparent !important;
+}
+.owl-theme .owl-dots .owl-dot.active span,
+.owl-theme .owl-dots .owl-dot:hover span {
+  background-color: var(--mianColor);
+}
+
+/****|end of services section|****/
+
+/****|start of projectsField section|****/
+#projects {
+  background-color: #f2f2f2;
+}
+
+.projects-en::before {
+  content: "Project Sections";
+}
+.projects-ar::before {
+  content: "اقسام المشروعات";
+  font-size: 45px;
+  bottom: 10px;
+}
+.projectField {
+  transition-duration: 0.5s;
+}
+.projectField div:first-of-type {
+  height: 155px;
+}
+.linewidth {
+  position: absolute;
+  width: 10%;
+  height: 2px;
+  background-color: var(--mianColor);
+  top: 0;
+  transition-duration: 0.5s;
+}
+.projectField:hover {
+  transform: scale(1.1);
+}
+.projectField:hover .linewidth {
+  width: 100%;
+}
+
+/****|end of projectsField section|****/
+
+/****|start of states section|****/
+#states {
+  min-height: 30vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(/src/assets/imgs/backgrounds/statesbg.webp);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.squareBefore {
+  letter-spacing: 6px;
+}
+.squareBefore::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: -15px;
+  height: 100%;
+  width: 47%;
+  border: 3px solid var(--mianColor);
+}
+.squareBefore::after {
+  content: "+";
+}
+/****|end of states section|****/
+
+/****|start of  vision-mission section|****/
+#vision-mission {
+  background-image: linear-gradient(
+      rgba(255, 255, 255, 0.9),
+      rgba(255, 255, 255, 0.9)
+    ),
+    url(/src/assets/imgs/backgrounds/Bridge-Drawing-BG.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/****|end of vision-mission section|****/
+
+/****|start of loader|****/
+.loaderBackground {
+  display: flex;
+  z-index: 99999;
+  height: 100%;
+}
+.loader {
+  width: 100px;
+  height: 100px;
+  border: 5px solid;
+  border-color: var(--mianColor) transparent;
+  border-radius: 50%;
+  display: inline-block;
+  box-sizing: border-box;
+  animation: rotation 1s linear infinite;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/****|end of loader|****/
+
+/**************************************conatct us page***************************************/
+#contactHead {
+  min-height: 60vh;
+  background-color: #905050;
+}
+/**************************************conatct us page***************************************/
+
+/****|start of footer|****/
+footer {
+  min-height: 30vh;
+  background-color: var(--navColor);
+}
+
+footer ul {
+  line-height: 30px;
+}
+footer ul li a {
+  color: white;
+  transition: 0.5s;
+}
+footer ul li a:hover {
+  color: var(--mianColor);
+}
+
+footer .socialIcons svg:hover {
+  color: white !important;
+}
+.footerHead {
+  letter-spacing: 3px;
+}
+.footerHead::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
+  width: 120%;
+  height: 2px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media (max-width: 767.98px) {
+  footer .social p {
+    text-align: center;
+  }
+}
+
+/****|end of footer|****/
+
+/****|Animation|****/
+.animate__animated.animate__fadeInLeftBig,
+.animate__animated.animate__fadeInDown,
+.animate__animated.animate__fadeInUp {
+  --animate-duration: 1s;
+  animation-timing-function: ease;
+}
+/****|Animation|****/
+
+/********************start of services pages***********************************/
+
+.service-landing img {
+  height: 55vh;
+  filter: brightness(0.5);
+  width: 120%;
+  animation: scaleDown 4s forwards;
+}
+.pageLocation {
+  background-color: rgba(0, 0, 0, 0.65);
+}
+@keyframes scaleDown {
+  from {
+    transform: scale(1.2);
+  }
+  to {
+    transform: scale(1);
+  }
+}
+/* architecture and building services */
+.dropShadow {
+  filter: drop-shadow(0 25px 11px gray);
+}
+
+/* architecture and building services */
+
+/********************end of services pages***********************************/
+
+/********************start of about us page***********************************/
+
+.accordion-button:not(.collapsed) {
+  background-color: var(--mianColor) !important;
+  color: white;
+}
+#aboutusInfo {
+  background-image: url("../assets/backgrounds/architectural-design-building-building-wall-dark-building-modern-concrete-structure-3d-re.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.about-item {
+  background-color: #fff3cd;
+  height: 250px;
+}
+#coreValues {
+  background-color: #f2f2f2;
+}
+.accordion-button::after {
+  margin: 0px;
+}
+
+/********************end of about us page***********************************/
+
+/********************start of contact us  page***********************************/
+#contactInfo {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../assets/backgrounds/vertical-shot-modern-office-buildings-with-big-reflective-windows-sunlight\ \(1\).jpg");
+}
+.ContactBtn:hover {
+  background-color: var(--secondColor);
+}
+/********************end of contact us  page***********************************/
+
+/*projects details*/
+tr:nth-child(odd) {
+  background-color: #cacaca;
+}
+.fs-15px {
+  font-size: 15px;
+}
+ol {
+  font-size: 14px;
+}
+/*projects details*/
+
+/*embla carasol*/
+.embla {
+  overflow: hidden;
+}
+.embla__container {
+  display: flex;
+}
+.embla__slide {
+  flex: 0 0 100%;
+  min-width: 0;
+}
