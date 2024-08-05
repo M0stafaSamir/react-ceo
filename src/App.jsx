@@ -21,6 +21,8 @@ import ServiceEight from "./Components/ServiceEight/ServiceEight";
 import ServiceFour from "./Components/ServiceFour/ServiceFour";
 import AboutUs from "./Components/AboutUs/AboutUs";
 import ContactUs from "./Components/ContactUs/ContactUs";
+import SolidWasteProjects from "./Components/SolidWasteProjects/SolidWasteProjects";
+import Project1 from "./Components/Projects/FieldOfSolidWaste/Project1/Project1";
 
 i18n
   .use(initReactI18next)
@@ -89,6 +91,8 @@ function App() {
         { path: "TheUrbanAndMasterPlanning", element: <ServiceEight /> },
         { path: "aboutUs", element: <AboutUs /> },
         { path: "contactUs", element: <ContactUs /> },
+        { path: "SolidWaste Projects", element: <SolidWasteProjects /> },
+        { path: "mahallaProjectMbt", element: <Project1 /> },
       ],
     },
   ]);

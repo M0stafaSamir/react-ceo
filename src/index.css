@@ -749,14 +749,20 @@ ol {
 }
 /*projects details*/
 
-/*embla carasol*/
-.embla {
-  overflow: hidden;
+/*projects lists*/
+.projectsTable th,
+.projectsTable td {
+  border: 2px solid white;
+  padding: 5px;
 }
-.embla__container {
-  display: flex;
+
+.w-20 {
+  width: 20%;
 }
-.embla__slide {
-  flex: 0 0 100%;
-  min-width: 0;
+/*projects lists*/
+
+/*project page*/
+.text-balance {
+  text-wrap: balance;
 }
+/*project page*/

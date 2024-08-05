@@ -1,5 +1,6 @@
 import React from "react";
 import { t } from "i18next";
+import { Link } from "react-router-dom";
 export default function ProjectFields() {
   return (
     <>
@@ -16,14 +17,12 @@ export default function ProjectFields() {
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
                   <p className="mainColor fw-medium">{t("fieldOf")}</p>
-                  <h5 className="fw-bold" data-i18n="service11">
-                    {t("service4")}
-                  </h5>
+                  <h5 className="fw-bold">{t("service4")}</h5>
                 </div>
                 <div className="d-flex justify-content-between align-items-center bg-secondary-subtle">
                   <p className="m-0 mainBg py-1 px-3 text-white fs-3">01</p>
                   <p className="m-0 py-1 px-3">
-                    <a href="#">{t("seeProjects")}</a>
+                    <Link to="/SolidWaste Projects">{t("seeProjects")}</Link>
                   </p>
                 </div>
               </div>
