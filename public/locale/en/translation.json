@@ -91,7 +91,7 @@
   "Sandoub": "Sandoub, Daqahlia, Egypt ",
   "manzalla": "Manzalla, Dakahlya, Egypt",
   "salam": "Dar El Salam, Sohag Governorate, Egypt",
-  "minya": "Minya, Minya Governorate, Egypt",
+  "minya": "El-Minya, Minya Governorate, Egypt",
   "otherProjOnMbt": "Other Projects on Design of Mechanical Biological Treatment Plant (MBT)",
   "projectName": "Project Name",
   "keyProjectDetails": "Key Project Details",
@@ -117,5 +117,28 @@
   "project1Capacity": "designed to have a daily processing capacity of 320 tons.",
   "project1area": "The project covers an expansive area of 9 acres.",
   "project1year": "The project was successfully implemented in the year 2021 AD.",
-  "project1cost": "The total cost of the project amounted to 99 million Egyptian pounds."
+  "project1cost": "The total cost of the project amounted to 99 million Egyptian pounds.",
+
+  "project2Des": "Design of Mechanical Biological Treatment Plant (MBT) in Manzalla, Dakahlya, Egypt for Solid Waste Recycling",
+  "project2Des2": "The Manzala Factory, situated in Dakahlia Governorate, underwent a comprehensive integrated engineering design encompassing architectural, structural, mechanical, and electromechanical aspects.",
+  "project2Capacity": "design capacity of 500 tons per day",
+  "project2area": "Factory project covered a substantial 12.7-acres",
+  "project2year": "The project was successfully implemented in the year 2021 AD.",
+  "project2cost": "Total Project Cost: 155 million Egyptian pounds",
+
+  "project3Des": "Design of Mechanical Biological Treatment Plant (MBT) in Sandoub, Daqahlia, Egypt for Solid Waste Recycling",
+  "project3Des2": "The Sandoub factory, located in Dakahlia Governorate, involved comprehensive integrated engineering design encompassing architectural, structural, mechanical, and electromechanical aspects.",
+  "project3Capacity": "design capacity of 1200 tons per day",
+  "project3area": "Factory project covered a substantial 18 acres",
+  "project3year": "The project was successfully implemented in the year 2019 AD.",
+  "project3cost": "Total Project Cost: 230 million Egyptian pounds",
+
+  "project4Des": "Design of Mechanical Biological Treatment Plant (MBT) in Dar ElSalam, Sohag Gov., Egypt for Solid Waste Recycling",
+  "project4Des2": "The Dar Elsalam Factory, situated in Sohag Governorate, underwent a comprehensive integrated engineering design encompassing architectural, structural, mechanical, and electromechanical aspects.",
+
+  "project5Des": "Design of Mechanical Biological Treatment Plant (MBT) in EL-Menya, Menya Gov., Egypt for Solid Waste Recycling",
+  "project5Des2": "our team successfully undertook the integrated engineering design encompassing architectural, structural, mechanical, and electromechanical aspects, as well as overseeing the implementation and installation of a factory located in Adwa, Minya Governorate.",
+
+  "project5area": "Factory project covered a substantial 11 acres",
+  "project5cost": "Total Project Cost: 89 million Egyptian pounds"
 }

@@ -22,18 +22,13 @@ import "lightgallery/css/lg-autoplay.css";
 import lgShare from "lightgallery/plugins/share";
 import "lightgallery/css/lg-share.css";
 
-import projectOneBg from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture1.jpg";
-import projectOnepic1 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture2.jpg";
-import projectOnepic2 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture3.jpg";
-import projectOnepic3 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture4.png";
-import projectOnepic4 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture5.png";
-import projectOnepic5 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture6.png";
-import projectOnepic6 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture7.png";
-import projectOnepic7 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture8.png";
-import projectOnepic8 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture9.jpg";
-import projectOnepic9 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture10.png";
-
-export default function Project1() {
+import projectFourBg from "./../../../../assets/imgs/projects/MBT in Dar ElSalam/Picture3.jpg";
+import projectFourpic1 from "./../../../../assets/imgs/projects/MBT in Dar ElSalam/Picture2.jpg";
+import projectFourpic2 from "./../../../../assets/imgs/projects/MBT in Dar ElSalam/Picture1.jpg";
+import projectFourpic3 from "./../../../../assets/imgs/projects/MBT in Dar ElSalam/Picture4.jpg";
+import projectFourpic4 from "./../../../../assets/imgs/projects/MBT in Dar ElSalam/Picture5.jpg";
+import projectFourpic5 from "./../../../../assets/imgs/projects/MBT in Dar ElSalam/Picture6.jpg";
+export default function Project4() {
   const onInit = () => {
     console.log("LightGallery has been initialized");
   };
@@ -51,8 +46,8 @@ export default function Project1() {
         <div className="service-landing position-relative overflow-hidden">
           <img
             className="object-fit-cover"
-            src={projectOneBg}
-            alt="Design of Mechanical Biological Treatment Plant (MBT) in Mahalla city, Gharbiya, Egypt for Solid Waste Recycling"
+            src={projectFourBg}
+            alt="Design of Mechanical Biological Treatment Plant (MBT) in Dar ElSalam, Sohag Gov., Egypt for Solid Waste Recycling"
           />
           <div
             className={
@@ -94,14 +89,14 @@ export default function Project1() {
           <div className="container">
             <div className="text-center mb-5">
               <h4 className="fw-bold">{t("mbtProject")}</h4>
-              <p className="fw-medium">{t("mahalla")}</p>
+              <p className="fw-medium">{t("salam")}</p>
             </div>
             <div className="row mb-5">
               <div className="col-lg-5">
                 <div className="h-100">
                   <img
                     className="w-100 h-100"
-                    src={projectOneBg}
+                    src={projectFourBg}
                     alt="project photo"
                   />
                 </div>
@@ -111,8 +106,8 @@ export default function Project1() {
                   <h4 className="fw-bold text-capitalize">
                     {t("keyProjectDetails")}:
                   </h4>
-                  <p>{t("project1Des")}</p>
-                  <p>{t("project1Des2")}</p>
+                  <p>{t("project4Des")}</p>
+                  <p>{t("project4Des2")}</p>
                   <table className="w-100 fs-15px">
                     <tbody>
                       <tr>
@@ -143,7 +138,7 @@ export default function Project1() {
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("projectLocation")}
                         </td>
-                        <td>{t("mahalla")}</td>
+                        <td>{t("salam")}</td>
                       </tr>
                     </tbody>
                   </table>
@@ -165,91 +160,56 @@ export default function Project1() {
                   ]}>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOneBg}>
+                    href={projectFourBg}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOneBg}
+                      src={projectFourBg}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic1}>
+                    href={projectFourpic1}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic1}
+                      src={projectFourpic1}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className=" col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic2}>
+                    href={projectFourpic2}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic2}
+                      src={projectFourpic2}
+                      alt="Gallery Image"
+                    />
+                  </a>
+
+                  <a
+                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
+                    href={projectFourpic3}>
+                    <img
+                      className="w-100 h-100 object-fit-cover"
+                      src={projectFourpic3}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic3}>
+                    href={projectFourpic4}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic3}
+                      src={projectFourpic4}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic4}>
+                    href={projectFourpic5}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic4}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic5}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic5}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic6}>
-                    <img
-                      className="w-100 h-100 col-lg-3 object-fit-cover"
-                      src={projectOnepic6}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic7}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic7}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic8}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic8}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic9}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic9}
+                      src={projectFourpic5}
                       alt="Gallery Image"
                     />
                   </a>

@@ -774,4 +774,17 @@ ol {
   display: flex;
   flex-wrap: wrap;
 }
+#lg-outer-6,
+#lg-outer-4,
+#lg-content-3,
+#lg-outer-3,
+.lg-container,
+#lg-backdrop-3,
+#lg-inner-3,
+#lg-components-3,
+#lg-toolbar-3,
+#lg-prev-3,
+#lg-next-3 {
+  direction: ltr !important;
+}
 /*project page*/

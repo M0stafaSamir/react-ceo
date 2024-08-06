@@ -22,18 +22,12 @@ import "lightgallery/css/lg-autoplay.css";
 import lgShare from "lightgallery/plugins/share";
 import "lightgallery/css/lg-share.css";
 
-import projectOneBg from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture1.jpg";
-import projectOnepic1 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture2.jpg";
-import projectOnepic2 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture3.jpg";
-import projectOnepic3 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture4.png";
-import projectOnepic4 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture5.png";
-import projectOnepic5 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture6.png";
-import projectOnepic6 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture7.png";
-import projectOnepic7 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture8.png";
-import projectOnepic8 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture9.jpg";
-import projectOnepic9 from "./../../../../assets/imgs/projects/MBT in Mahalla/Picture10.png";
+import projectTwopic2 from "./../../../../assets/imgs/projects/MBT in Manzalla/Picture1.png";
+import projectTwopic1 from "./../../../../assets/imgs/projects/MBT in Manzalla/Picture2.jpg";
+import projectTwoBg from "./../../../../assets/imgs/projects/MBT in Manzalla/Picture3.jpg";
+import projectTwopic4 from "./../../../../assets/imgs/projects/MBT in Manzalla/Picture6.jpg";
 
-export default function Project1() {
+export default function Project2() {
   const onInit = () => {
     console.log("LightGallery has been initialized");
   };
@@ -51,8 +45,8 @@ export default function Project1() {
         <div className="service-landing position-relative overflow-hidden">
           <img
             className="object-fit-cover"
-            src={projectOneBg}
-            alt="Design of Mechanical Biological Treatment Plant (MBT) in Mahalla city, Gharbiya, Egypt for Solid Waste Recycling"
+            src={projectTwoBg}
+            alt="Design of Mechanical Biological Treatment Plant (MBT) in in Manzalla, Dakahlya, Egypt  for Solid Waste Recycling"
           />
           <div
             className={
@@ -94,14 +88,14 @@ export default function Project1() {
           <div className="container">
             <div className="text-center mb-5">
               <h4 className="fw-bold">{t("mbtProject")}</h4>
-              <p className="fw-medium">{t("mahalla")}</p>
+              <p className="fw-medium">{t("manzalla")}</p>
             </div>
             <div className="row mb-5">
               <div className="col-lg-5">
                 <div className="h-100">
                   <img
                     className="w-100 h-100"
-                    src={projectOneBg}
+                    src={projectTwoBg}
                     alt="project photo"
                   />
                 </div>
@@ -111,21 +105,21 @@ export default function Project1() {
                   <h4 className="fw-bold text-capitalize">
                     {t("keyProjectDetails")}:
                   </h4>
-                  <p>{t("project1Des")}</p>
-                  <p>{t("project1Des2")}</p>
+                  <p>{t("project2Des")}</p>
+                  <p>{t("project2Des2")}</p>
                   <table className="w-100 fs-15px">
                     <tbody>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("factoryCapacity")}
                         </td>
-                        <td>{t("project1Capacity")}</td>
+                        <td>{t("project2Capacity")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("areaCoverd")}
                         </td>
-                        <td>{t("project1area")}</td>
+                        <td>{t("project2area")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
@@ -137,13 +131,13 @@ export default function Project1() {
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("totalCost")}
                         </td>
-                        <td>{t("project1cost")}</td>
+                        <td>{t("project2cost")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("projectLocation")}
                         </td>
-                        <td>{t("mahalla")}</td>
+                        <td>{t("manzalla")}</td>
                       </tr>
                     </tbody>
                   </table>
@@ -165,91 +159,38 @@ export default function Project1() {
                   ]}>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOneBg}>
+                    href={projectTwoBg}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOneBg}
+                      src={projectTwoBg}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic1}>
+                    href={projectTwopic1}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic1}
+                      src={projectTwopic1}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className=" col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic2}>
+                    href={projectTwopic2}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic2}
+                      src={projectTwopic2}
                       alt="Gallery Image"
                     />
                   </a>
+
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic3}>
+                    href={projectTwopic4}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic3}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic4}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic4}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic5}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic5}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic6}>
-                    <img
-                      className="w-100 h-100 col-lg-3 object-fit-cover"
-                      src={projectOnepic6}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic7}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic7}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic8}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic8}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectOnepic9}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectOnepic9}
+                      src={projectTwopic4}
                       alt="Gallery Image"
                     />
                   </a>

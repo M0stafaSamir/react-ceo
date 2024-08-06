@@ -87,7 +87,7 @@ export default function SolidWasteProjects() {
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/mahalla project"
+                      to="/sandoubProjectMbt"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -111,7 +111,7 @@ export default function SolidWasteProjects() {
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/mahalla project"
+                      to="/manzallaProjectMbt"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -134,7 +134,7 @@ export default function SolidWasteProjects() {
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/mahalla project"
+                      to="/salamProjectMbt"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -157,7 +157,7 @@ export default function SolidWasteProjects() {
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/mahalla project"
+                      to="/minyaProjectMbt"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}

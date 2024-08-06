@@ -23,6 +23,10 @@ import AboutUs from "./Components/AboutUs/AboutUs";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import SolidWasteProjects from "./Components/SolidWasteProjects/SolidWasteProjects";
 import Project1 from "./Components/Projects/FieldOfSolidWaste/Project1/Project1";
+import Project2 from "./Components/Projects/FieldOfSolidWaste/Project2/Project2";
+import Project3 from "./Components/Projects/FieldOfSolidWaste/Projcet3/Projcet3";
+import Project4 from "./Components/Projects/FieldOfSolidWaste/Project4/Project4";
+import Project5 from "./Components/Projects/FieldOfSolidWaste/Project5/Project5";
 
 i18n
   .use(initReactI18next)
@@ -93,6 +97,10 @@ function App() {
         { path: "contactUs", element: <ContactUs /> },
         { path: "SolidWaste Projects", element: <SolidWasteProjects /> },
         { path: "mahallaProjectMbt", element: <Project1 /> },
+        { path: "manzallaProjectMbt", element: <Project2 /> },
+        { path: "sandoubProjectMbt", element: <Project3 /> },
+        { path: "salamProjectMbt", element: <Project4 /> },
+        { path: "minyaProjectMbt", element: <Project5 /> },
       ],
     },
   ]);
