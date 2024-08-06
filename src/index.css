@@ -765,4 +765,13 @@ ol {
 .text-balance {
   text-wrap: balance;
 }
+.galleryAtag {
+  display: inline-block;
+  /* width: 25% !important;
+  height: 25% !important; */
+}
+.lg-react-element {
+  display: flex;
+  flex-wrap: wrap;
+}
 /*project page*/
