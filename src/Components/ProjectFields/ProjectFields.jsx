@@ -37,7 +37,7 @@ export default function ProjectFields() {
                 <div className="d-flex justify-content-between align-items-center bg-secondary-subtle">
                   <p className="m-0 mainBg py-1 px-3 text-white fs-3">02</p>
                   <p className="m-0 py-1 px-3">
-                    <a href="/transferStation">{t("seeProjects")}</a>
+                    <Link to="/transferStation">{t("seeProjects")}</Link>
                   </p>
                 </div>
               </div>
@@ -52,7 +52,9 @@ export default function ProjectFields() {
                 <div className="d-flex justify-content-between align-items-center bg-secondary-subtle">
                   <p className="m-0 mainBg py-1 px-3 text-white fs-3">03</p>
                   <p className="m-0 py-1 px-3">
-                    <a href="/sanitarylandfillsprojects">{t("seeProjects")}</a>
+                    <Link to="/sanitarylandfillsprojects">
+                      {t("seeProjects")}
+                    </Link>
                   </p>
                 </div>
               </div>
