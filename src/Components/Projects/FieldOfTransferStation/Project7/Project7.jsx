@@ -22,14 +22,11 @@ import "lightgallery/css/lg-autoplay.css";
 import lgShare from "lightgallery/plugins/share";
 import "lightgallery/css/lg-share.css";
 
-import projectThreepic3 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture15.png";
-import projectThreepic1 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture11.png";
-import projectThreepic2 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture12.png";
-import projectThreeBg from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture13.jpg";
-import projectThreepic4 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture14.jpg";
-import projectThreepic5 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture16.png";
+import projectTSevenBg from "./../../../../assets/imgs/projects/Transfer Station manshyatNasser/Picture10.jpg";
+import projectSevenpic1 from "./../../../../assets/imgs/projects/Transfer Station manshyatNasser/Picture8.jpg";
+import projectSevenpic2 from "./../../../../assets/imgs/projects/Transfer Station manshyatNasser/Picture9.jpg";
 
-export default function Project3() {
+export default function Project7() {
   const onInit = () => {
     console.log("LightGallery has been initialized");
   };
@@ -45,11 +42,7 @@ export default function Project3() {
     <>
       <div className="projectDetailsPage">
         <div className="service-landing position-relative overflow-hidden">
-          <img
-            className="object-fit-cover"
-            src={projectThreeBg}
-            alt="Design of Mechanical Biological Treatment Plant (MBT) in  Sandoub, Daqahlia, Egypt  for Solid Waste Recycling"
-          />
+          <img className="object-fit-cover" src={projectTSevenBg} alt="" />
           <div
             className={
               language === "en"
@@ -67,14 +60,14 @@ export default function Project3() {
             <span>
               {" "}
               {language === "en" ? (
-                <Link className="text-white" to="/SolidWaste Projects">
+                <Link className="text-white" to="/transferStation">
                   {" "}
-                  {t("designMbt")} {t("projectswithAl")}{" "}
+                  {t("transferStation")} {t("projectswithAl")}{" "}
                 </Link>
               ) : (
-                <Link className="text-white" to="/SolidWaste Projects">
+                <Link className="text-white" to="/transferStation">
                   {" "}
-                  {t("projectswithAl")} {t("designMbt")}{" "}
+                  {t("projectswithAl")} {t("transferStation")}{" "}
                 </Link>
               )}
             </span>{" "}
@@ -89,15 +82,15 @@ export default function Project3() {
         <div className="service-content py-5">
           <div className="container">
             <div className="text-center mb-5">
-              <h4 className="fw-bold">{t("mbtProject")}</h4>
-              <p className="fw-medium">{t("Sandoub")}</p>
+              <h4 className="fw-bold">{t("manshiyetNasserTs")}</h4>
+              <p className="fw-medium">{t("manshiyetNasser")}</p>
             </div>
-            <div className="row mb-5">
+            <div className="row gy-4 mb-5">
               <div className="col-lg-5">
                 <div className="h-100">
                   <img
                     className="w-100 h-100"
-                    src={projectThreeBg}
+                    src={projectTSevenBg}
                     alt="project photo"
                   />
                 </div>
@@ -107,21 +100,14 @@ export default function Project3() {
                   <h4 className="fw-bold text-capitalize">
                     {t("keyProjectDetails")}:
                   </h4>
-                  <p>{t("project3Des")}</p>
-                  <p>{t("project3Des2")}</p>
+                  <p>{t("manshiyetNasserTsDesc")}</p>
                   <table className="w-100 fs-15px">
                     <tbody>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
-                          {t("factoryCapacity")}
-                        </td>
-                        <td>{t("project3Capacity")}</td>
-                      </tr>
-                      <tr>
-                        <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("areaCoverd")}
                         </td>
-                        <td>{t("project3area")}</td>
+                        <td>{t("manshiyetNasserTsArea")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
@@ -133,13 +119,13 @@ export default function Project3() {
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("totalCost")}
                         </td>
-                        <td>{t("project2cost")}</td>
+                        <td>{t("manshiyetNasserTsCost")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("projectLocation")}
                         </td>
-                        <td>{t("Sandoub")}</td>
+                        <td>{t("manshiyetNasser")}</td>
                       </tr>
                     </tbody>
                   </table>
@@ -161,56 +147,28 @@ export default function Project3() {
                   ]}>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreeBg}>
+                    href={projectTSevenBg}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreeBg}
+                      src={projectTSevenBg}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic1}>
+                    href={projectSevenpic1}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic1}
+                      src={projectSevenpic1}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className=" col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic2}>
+                    href={projectSevenpic2}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic2}
-                      alt="Gallery Image"
-                    />
-                  </a>
-
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic3}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic3}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic4}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic4}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic5}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic5}
+                      src={projectSevenpic2}
                       alt="Gallery Image"
                     />
                   </a>

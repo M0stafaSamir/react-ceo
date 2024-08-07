@@ -22,8 +22,12 @@
   "whoWeAreParagraph2": "CEO offers a comprehensive array of services, encompassing Environmental Projects, Construction Projects, Waste-to-Energy Projects, Waste Management, Bridges Design, Utilities and Networks Design, Contracts and Cost Consultancy, Construction and Program Management, Civil and Architectural Design, Electromechanical Design, Urban and Master Planning, Landscaping, and Transportation Planning. Our aim is to provide an integrated offering that caters to all our clients' needs.",
   "readMore": "read more",
   "ourClients": "our clients",
-  "projectSection": "project Section",
-  "fieldOf": "field of",
+  "projectSection": "project Sections",
+
+  "designMbt": "Design of mechanical biological treatment plants",
+  "transferStation": "Intermediate transfer stations for solid waste (T.S)",
+  "sanitaryLandfills": "Establishment of sanitary landfills for solid waste",
+
   "seeProjects": "see projects",
   "ourVision": "our vision",
   "ourVisionParagraph": "Our vision is to furnish our clients with solutions and services that prioritize safety, sustainability, and innovation while adhering to both local and international standards.",
@@ -77,6 +81,7 @@
   "ouremail": "our emails :",
   "callOn": "call us on :",
   "location": "location :",
+  "ourLocation": "31 Orabi Street, El Tawfikia, Azbakeya, Cairo",
   "writeMessage": "write a message",
   "ouestions": "have any questions ?",
   "tankMessage": "Thank you very much for your interest in our company and our services and if you have any questions, please write us a message now!",
@@ -123,7 +128,6 @@
   "project2Des2": "The Manzala Factory, situated in Dakahlia Governorate, underwent a comprehensive integrated engineering design encompassing architectural, structural, mechanical, and electromechanical aspects.",
   "project2Capacity": "design capacity of 500 tons per day",
   "project2area": "Factory project covered a substantial 12.7-acres",
-  "project2year": "The project was successfully implemented in the year 2021 AD.",
   "project2cost": "Total Project Cost: 155 million Egyptian pounds",
 
   "project3Des": "Design of Mechanical Biological Treatment Plant (MBT) in Sandoub, Daqahlia, Egypt for Solid Waste Recycling",
@@ -140,5 +144,66 @@
   "project5Des2": "our team successfully undertook the integrated engineering design encompassing architectural, structural, mechanical, and electromechanical aspects, as well as overseeing the implementation and installation of a factory located in Adwa, Minya Governorate.",
 
   "project5area": "Factory project covered a substantial 11 acres",
-  "project5cost": "Total Project Cost: 89 million Egyptian pounds"
+  "project5cost": "Total Project Cost: 89 million Egyptian pounds",
+  "baltim": "Baltim - Kafr El-Sheikh Governorate.",
+  "baltimlanddillProj": "Baltim landfill 2022",
+
+  "project6Des": "In 2022 AD, the construction of the sanitary landfill located on the Manisi Baltim navigation land in Kafr El-Sheikh Governorate was successfully completed.",
+  "project6Des2": "Notably, this project received support from the World Bank.",
+  "project6Capacity": "design capacity of 1200 tons per day",
+  "project6area": "designed for the responsible disposal of waste across a vast area of 92 acres. ",
+  "project6year": "The project was successfully implemented in the year 2022 AD.",
+  "project6cost": "Total Project Cost 200 million Egyptian pounds",
+
+  "manshiyetNasserTs": "Manshiyet Nasser Transfer Station, Cairo ",
+  "manshiyetNasser": "Mansheyet Nasser area, Cairo Governorate.",
+  "manshiyetNasserTsDesc": "The Manshiyet Nasser Waste Station covers an extensive area of approximately 1,600 square meters and serves several vital districts, including the Central District, Mansheyet Nasser, Nasr City West, Abdeen, Al-Azbakeya, and Bab Al-Shaareya.",
+  "manshiyetNasserTsCost": "Total Project Cost 30 million Egyptian pounds",
+  "manshiyetNasserTsArea": "covers an extensive area of approximately 1,600 square meters",
+
+  "damanhourTs": "Intermediate Waste Collection and Transport Station in Damanhour, Beheira",
+  "damanhourTsDesc": "the station is equipped with key features and facilities to ensure efficient waste management:(Truck Scale - Reception Platform - Fire Pits - Pump Set - Waste Bin Parking)",
+  "damanhour": "Damanhour, Beheira Governorate.",
+  "damanhourTsArea": "Spanning an area of 2,635 square meters",
+  "wasteCpacity": "capacity : ",
+  "damanhourTsCapacity": "It has a waste capacity of 820-900 tons per day",
+
+  "YoussefAl_SiddiqTs": "Intermediate station for collecting and transporting waste, Youssef Al-Siddiq - Fayoum",
+  "YoussefAl_Siddiq": "Youssef Al-Siddiq - Fayoum",
+  "YoussefAl_SiddiqTsDesc": "Its area is 4,000 square metres, and it has a ground scale for a 50-ton truck, concrete roads paved for the entry and exit of transport vehicles and loaders, and collection pits for liquids with a suitable drainage system and a sewage system.",
+  "YoussefAl_SiddiqTsDesc2": "The station is equipped with a truck scale, a receiving platform, fire pits, a set of pumps, and 5 designated parking spaces for waste bins under the sidewalk and a washing machine. cars, ",
+  "YoussefAl_SiddiqTsArea": "Its area is 4,000 square meters",
+  "YoussefAl_SiddiqCapacity": "the station receives approximately 500 tons per day.",
+  "YoussefAl_SiddiqYear": "The project was successfully implemented in the year 2020 AD.",
+
+  "al_QanaterTs": "intermediate station for collecting and transporting waste, Al-Qanater ",
+  "al_Qanater": "Al-Qanater Al-Khairiyah Station, Qalyubia ",
+  "al_QanaterTsDesc": "it has a ground scale for a 50-ton truck, concrete roads paved for the entry and exit of transport vehicles and loaders, and collection pits for liquids with a suitable drainage system and a sewage system. The station is equipped with a truck scale, a receiving platform, fire pits, a pump set, and 5 parking spaces for waste bins under the sidewalk and a washing machine. cars,",
+  "al_QanaterTsTsArea": "Its area is 18,000 square metres",
+  "al_QanaterTsYear": "The project was successfully implemented in the year 2023 AD.",
+
+  "KafrEl_DawwarTS": "intermediate station for collecting and transporting waste in Kafr El-Dawwar",
+  "KafrEl_Dawwar": "Kafr El-Dawwar-Beheira",
+  "KafrEl_DawwarTSDesc": "The station was established on an area of 3,450 square meters serving the area (Kafr al-Dawwar, Abu Homs, and Ibis) with a waste capacity of 800 tons/day, which will be transported to the Housh Issa Factory for processing and recycling, and the rejected waste will be transferred to the Badr landfill in the governorate, which is being completed.",
+  "KafrEl_DawwarTSTsArea": "Its area is 3450 square metres",
+  "KafrEl_DawwarTSCapacity": "It has a waste capacity of 800 tons per day",
+
+  "PortSaidStreetTS": "The intermediate station for collecting and transporting waste on Port Said Street, Cairo ",
+  "PortSaidSt": "Port Said Street, Cairo",
+  "PortSaidStreetTSDesc": "The station, situated on a 4,381 square meter area, has the capacity to manage 1,500 tons of waste per day. This waste is subsequently transported to the plant for treatment and recycling.",
+  "PortSaidStreetTSTsArea": "Its area is 4381 square metres",
+  "PortSaidStreetTSCapacity": "It has a waste capacity of 1500 tons per day",
+
+  "Al_QurainTS": "intermediate station for collecting and transporting waste in Al-Qurain, Al-Sharqiyah Governorate ",
+  "Al_Qurain": "Al-Qurain, Al-Sharqiyah Governorate",
+  "Al_QurainTSDesc": "The station, situated on a 3,700 square meter area, has the capacity to manage 1,200 tons of waste per day. This waste is subsequently transported to the plant for treatment and recycling.",
+  "Al_QurainTSTsArea": "Its area is 3700 square metres",
+  "Al_QurainTSCapacity": "It has a waste capacity of 1200 tons per day",
+
+  "TallaTS": "The intermediate station for collecting and transporting waste in Talla, Menoufia Governorate",
+  "Talla": "Talla, Menoufia Governorate",
+  "TallaTSDesc": "The station was established on a 3,250-square-meter area, catering to five areas with a daily waste capacity of 800 tons. This waste is transported to the factory for treatment and recycling. Any rejected waste will be transferred to the forthcoming Badr landfill in the governorate, currently under construction.",
+  "TallaTSDesc2": "The station is well-equipped with a truck scale, a reception platform, fire pits, a pump set, and four designated parking spaces for waste bins under the platform, along with a car wash facility. It receives approximately 800 to 1,200 tons of waste per day.",
+  "TallaTSArea": "Its area is 3250 square metres",
+  "TallaTSCapacity": "It has a waste capacity of  800-1200 tons per day"
 }

@@ -91,9 +91,7 @@ export default function ContactUs() {
                     <p className="fs-5 m-0 text-capitalize fw-bold">
                       {t("location")}
                     </p>
-                    <p className="text-center">
-                      13 Ahmed Orbi Street, Cairo, Egypt
-                    </p>
+                    <p className="text-center">{t("ourLocation")}</p>
                   </div>
                 </div>
                 <div className="col-lg-3">
@@ -138,7 +136,7 @@ export default function ContactUs() {
                       {t("hours")}
                     </p>
                     <p className="text-center">
-                      Open Hours 09:00 AM - 06:30 PM
+                      Open Hours 09:00 AM - 05:00 PM
                     </p>
                   </div>
                 </div>
@@ -146,7 +144,7 @@ export default function ContactUs() {
             </div>
 
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d863.2504368082185!2d31.259410632308455!3d30.065484401395462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458408118dd3df1%3A0xe53eb54f0c1aca4d!2z2LHZhdiz2YrYs9iMINin2YTZgtio2YrYs9mK2Iwg2K3ZiiDYp9mE2LjYp9mH2LHYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKw!5e0!3m2!1sar!2seg!4v1722091857700!5m2!1sar!2seg"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d215.83271531410423!2d31.243167556822325!3d30.05626188613631!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1458409460c1956f%3A0xbf4421382bc713c!2zMzEg2LnYsdin2KjZitiMINin2YTYo9iy2KjZg9mK2KnYjCDZhdit2KfZgdi42Kkg2KfZhNmC2KfZh9ix2KnigKwgNDMyMDExMA!5e0!3m2!1sar!2seg!4v1722960233364!5m2!1sar!2seg"
               width="100%"
               height="450"
               loading="lazy"

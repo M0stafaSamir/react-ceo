@@ -767,8 +767,7 @@ ol {
 }
 .galleryAtag {
   display: inline-block;
-  /* width: 25% !important;
-  height: 25% !important; */
+  height: 220px;
 }
 .lg-react-element {
   display: flex;

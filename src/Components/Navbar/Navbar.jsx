@@ -50,7 +50,7 @@ export default function Navbar() {
             : "navbar navbar-expand-lg w-100 position-fixed "
         }>
         <div className="container">
-          <a className="navbar-brand" href="index.html">
+          <a className="navbar-brand" href="/">
             <img width="150" src={logo} alt="Our Logo" />
           </a>
           <button

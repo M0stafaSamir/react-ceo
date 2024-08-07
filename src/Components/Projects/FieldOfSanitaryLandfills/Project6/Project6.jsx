@@ -22,14 +22,15 @@ import "lightgallery/css/lg-autoplay.css";
 import lgShare from "lightgallery/plugins/share";
 import "lightgallery/css/lg-share.css";
 
-import projectThreepic3 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture15.png";
-import projectThreepic1 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture11.png";
-import projectThreepic2 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture12.png";
-import projectThreeBg from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture13.jpg";
-import projectThreepic4 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture14.jpg";
-import projectThreepic5 from "./../../../../assets/imgs/projects/MBT in Sandoub/Picture16.png";
+import projectSixBg from "./../../../../assets/imgs/projects/Baltim landfill/Picture7.jpg";
+import projectSixpic1 from "./../../../../assets/imgs/projects/Baltim landfill/Picture1.jpg";
+import projectSixpic2 from "./../../../../assets/imgs/projects/Baltim landfill/Picture2.png";
+import projectSixpic3 from "./../../../../assets/imgs/projects/Baltim landfill/Picture3.jpg";
+import projectSixpic4 from "./../../../../assets/imgs/projects/Baltim landfill/Picture4.jpg";
+import projectSixpic5 from "./../../../../assets/imgs/projects/Baltim landfill/Picture5.jpg";
+import projectSixpic6 from "./../../../../assets/imgs/projects/Baltim landfill/Picture6.jpg";
 
-export default function Project3() {
+export default function Project6() {
   const onInit = () => {
     console.log("LightGallery has been initialized");
   };
@@ -47,7 +48,7 @@ export default function Project3() {
         <div className="service-landing position-relative overflow-hidden">
           <img
             className="object-fit-cover"
-            src={projectThreeBg}
+            src={projectSixBg}
             alt="Design of Mechanical Biological Treatment Plant (MBT) in  Sandoub, Daqahlia, Egypt  for Solid Waste Recycling"
           />
           <div
@@ -67,14 +68,14 @@ export default function Project3() {
             <span>
               {" "}
               {language === "en" ? (
-                <Link className="text-white" to="/SolidWaste Projects">
+                <Link className="text-white" to="/sanitarylandfillsprojects">
                   {" "}
-                  {t("designMbt")} {t("projectswithAl")}{" "}
+                  {t("sanitaryLandfills")} {t("projectswithAl")}{" "}
                 </Link>
               ) : (
-                <Link className="text-white" to="/SolidWaste Projects">
+                <Link className="text-white" to="/sanitarylandfillsprojects">
                   {" "}
-                  {t("projectswithAl")} {t("designMbt")}{" "}
+                  {t("projectswithAl")} {t("sanitaryLandfills")}{" "}
                 </Link>
               )}
             </span>{" "}
@@ -89,15 +90,15 @@ export default function Project3() {
         <div className="service-content py-5">
           <div className="container">
             <div className="text-center mb-5">
-              <h4 className="fw-bold">{t("mbtProject")}</h4>
-              <p className="fw-medium">{t("Sandoub")}</p>
+              <h4 className="fw-bold">{t("sanitaryLandfills")}</h4>
+              <p className="fw-medium">{t("baltim")}</p>
             </div>
             <div className="row mb-5">
               <div className="col-lg-5">
                 <div className="h-100">
                   <img
                     className="w-100 h-100"
-                    src={projectThreeBg}
+                    src={projectSixBg}
                     alt="project photo"
                   />
                 </div>
@@ -107,39 +108,33 @@ export default function Project3() {
                   <h4 className="fw-bold text-capitalize">
                     {t("keyProjectDetails")}:
                   </h4>
-                  <p>{t("project3Des")}</p>
-                  <p>{t("project3Des2")}</p>
+                  <p>{t("project6Des")}</p>
+                  <p>{t("project6Des2")}</p>
                   <table className="w-100 fs-15px">
                     <tbody>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
-                          {t("factoryCapacity")}
-                        </td>
-                        <td>{t("project3Capacity")}</td>
-                      </tr>
-                      <tr>
-                        <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("areaCoverd")}
                         </td>
-                        <td>{t("project3area")}</td>
+                        <td>{t("project6area")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("year")}
                         </td>
-                        <td>{t("project3year")}</td>
+                        <td>{t("project6year")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("totalCost")}
                         </td>
-                        <td>{t("project2cost")}</td>
+                        <td>{t("project6cost")}</td>
                       </tr>
                       <tr>
                         <td className="text-capitalize fw-bold px-2 text-balance py-2">
                           {t("projectLocation")}
                         </td>
-                        <td>{t("Sandoub")}</td>
+                        <td>{t("baltim")}</td>
                       </tr>
                     </tbody>
                   </table>
@@ -161,56 +156,65 @@ export default function Project3() {
                   ]}>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreeBg}>
+                    href={projectSixBg}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreeBg}
+                      src={projectSixBg}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic1}>
+                    href={projectSixpic1}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic1}
-                      alt="Gallery Image"
-                    />
-                  </a>
-                  <a
-                    className=" col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic2}>
-                    <img
-                      className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic2}
+                      src={projectSixpic1}
                       alt="Gallery Image"
                     />
                   </a>
 
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic3}>
+                    href={projectSixpic3}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic3}
+                      src={projectSixpic3}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic4}>
+                    href={projectSixpic4}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic4}
+                      src={projectSixpic4}
+                      alt="Gallery Image"
+                    />
+                  </a>
+                  <a
+                    className=" col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
+                    href={projectSixpic2}>
+                    <img
+                      className="w-100 h-100 object-fit-cover"
+                      src={projectSixpic2}
                       alt="Gallery Image"
                     />
                   </a>
                   <a
                     className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
-                    href={projectThreepic5}>
+                    href={projectSixpic5}>
                     <img
                       className="w-100 h-100 object-fit-cover"
-                      src={projectThreepic5}
+                      src={projectSixpic5}
+                      alt="Gallery Image"
+                    />
+                  </a>
+                  <a
+                    className="col-6 col-sm-6 col-md-4 col-lg-3 galleryAtag p-2"
+                    href={projectSixpic6}>
+                    <img
+                      className="w-100 h-100 object-fit-cover"
+                      src={projectSixpic6}
                       alt="Gallery Image"
                     />
                   </a>

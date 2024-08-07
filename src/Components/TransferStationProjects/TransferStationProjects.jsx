@@ -3,21 +3,22 @@ import { t } from "i18next";
 import Cookies from "js-cookie";
 import { Link } from "react-router-dom";
 
-import solidWastedrop from "./../../assets/imgs/services/solidwastedrop.png";
+import solidWasteStation from "./../../assets/imgs/services/soildWasteStation.jpg";
 
-export default function SolidWasteProjects() {
+export default function TransferStationProjects() {
   const [language, setLanguage] = useState("");
   const lng = Cookies.get("i18next") || "en";
   useEffect(() => {
     setLanguage(lng);
   }, [lng]);
+
   return (
     <>
       <div className="solidWasteProjects">
         <div className="service-landing position-relative overflow-hidden">
           <img
             className="object-fit-cover"
-            src={solidWastedrop}
+            src={solidWasteStation}
             alt="solid waste projects"
           />
           <div
@@ -38,8 +39,8 @@ export default function SolidWasteProjects() {
             <span className="mainColor">
               {" "}
               {language === "en"
-                ? t("service4") + " " + t("projectswithAl")
-                : t("projectswithAl") + " " + t("service4")}
+                ? t("transferStation") + " " + t("projectswithAl")
+                : t("projectswithAl") + " " + t("transferStation")}
             </span>
           </div>
         </div>
@@ -49,21 +50,23 @@ export default function SolidWasteProjects() {
               {t("pervWork")}
             </h5>
             <h3 className="text-uppercase fw-bold text-center mb-5">
-              {t("service4")}
+              {t("transferStation")}
             </h3>
             <div className="row gy-3 mb-5">
               <div className="col-lg-12">
                 <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
                   <div>
-                    <p className="fw-bold fs-5 m-0 w-100">{t("mbtProject")}</p>
+                    <p className="fw-bold fs-5 m-0 w-100">
+                      {t("manshiyetNasserTs")}
+                    </p>
                     <p className="m-0">
                       <i className="fa-solid fa-location-dot"></i>{" "}
-                      {t("mahalla")}
+                      {t("manshiyetNasser")}
                     </p>
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/mahallaProjectMbt"
+                      to="/manshiyetNasserTs"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -79,15 +82,15 @@ export default function SolidWasteProjects() {
               <div className="col-lg-12">
                 <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
                   <div>
-                    <p className="fw-bold fs-5 m-0 w-100">{t("mbtProject")}</p>
+                    <p className="fw-bold fs-5 m-0 w-100">{t("damanhourTs")}</p>
                     <p className="m-0">
                       <i className="fa-solid fa-location-dot"></i>{" "}
-                      {t("Sandoub")}
+                      {t("damanhour")}
                     </p>
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/sandoubProjectMbt"
+                      to="/damanhourTs"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -103,15 +106,17 @@ export default function SolidWasteProjects() {
               <div className="col-lg-12">
                 <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
                   <div>
-                    <p className="fw-bold fs-5 m-0 w-100">{t("mbtProject")}</p>
+                    <p className="fw-bold fs-5 m-0 w-100">
+                      {t("YoussefAl_SiddiqTs")}
+                    </p>
                     <p className="m-0">
                       <i className="fa-solid fa-location-dot"></i>{" "}
-                      {t("manzalla")}
+                      {t("YoussefAl_Siddiq")}
                     </p>
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/manzallaProjectMbt"
+                      to="/YoussefAl_SiddiqTs"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -127,14 +132,17 @@ export default function SolidWasteProjects() {
               <div className="col-lg-12">
                 <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
                   <div>
-                    <p className="fw-bold fs-5 m-0 w-100">{t("mbtProject")}</p>
+                    <p className="fw-bold fs-5 m-0 w-100">
+                      {t("al_QanaterTs")}
+                    </p>
                     <p className="m-0">
-                      <i className="fa-solid fa-location-dot"></i> {t("salam")}
+                      <i className="fa-solid fa-location-dot"></i>{" "}
+                      {t("al_Qanater")}
                     </p>
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/salamProjectMbt"
+                      to="/Al_QanaterTs"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -150,14 +158,90 @@ export default function SolidWasteProjects() {
               <div className="col-lg-12">
                 <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
                   <div>
-                    <p className="fw-bold fs-5 m-0 w-100">{t("mbtProject")}</p>
+                    <p className="fw-bold fs-5 m-0 w-100">
+                      {t("KafrEl_DawwarTS")}
+                    </p>
                     <p className="m-0">
-                      <i className="fa-solid fa-location-dot"></i> {t("minya")}
+                      <i className="fa-solid fa-location-dot"></i>{" "}
+                      {t("KafrEl_Dawwar")}
                     </p>
                   </div>
                   <div className="d-flex justify-content-center">
                     <Link
-                      to="/minyaProjectMbt"
+                      to="/KafrEl-DawwarTs"
+                      className="btn detailsBtn mainBg rounded-0 fw-bold">
+                      {t("projectDetails")}
+                      {"  "}
+                      {language === "en" ? (
+                        <i className="fa-solid fa-arrow-right"></i>
+                      ) : (
+                        <i className="fa-solid fa-arrow-left"></i>
+                      )}
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
+                  <div>
+                    <p className="fw-bold fs-5 m-0 w-100">
+                      {t("PortSaidStreetTS")}
+                    </p>
+                    <p className="m-0">
+                      <i className="fa-solid fa-location-dot"></i>{" "}
+                      {t("PortSaidSt")}
+                    </p>
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <Link
+                      to="/portsaidStTs"
+                      className="btn detailsBtn mainBg rounded-0 fw-bold">
+                      {t("projectDetails")}
+                      {"  "}
+                      {language === "en" ? (
+                        <i className="fa-solid fa-arrow-right"></i>
+                      ) : (
+                        <i className="fa-solid fa-arrow-left"></i>
+                      )}
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
+                  <div>
+                    <p className="fw-bold fs-5 m-0 w-100">{t("Al_QurainTS")}</p>
+                    <p className="m-0">
+                      <i className="fa-solid fa-location-dot"></i>{" "}
+                      {t("Al_Qurain")}
+                    </p>
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <Link
+                      to="/Al_QurainTs"
+                      className="btn detailsBtn mainBg rounded-0 fw-bold">
+                      {t("projectDetails")}
+                      {"  "}
+                      {language === "en" ? (
+                        <i className="fa-solid fa-arrow-right"></i>
+                      ) : (
+                        <i className="fa-solid fa-arrow-left"></i>
+                      )}
+                    </Link>
+                  </div>
+                </div>
+              </div>
+              <div className="col-lg-12">
+                <div className="projectItem gap-4 gap-lg-3 d-flex justify-content-center justify-content-lg-between justify-content-sm-center shadow align-items-center flex-wrap p-4 gy-4">
+                  <div>
+                    <p className="fw-bold fs-5 m-0 w-100">{t("TallaTS")}</p>
+                    <p className="m-0">
+                      <i className="fa-solid fa-location-dot"></i> {t("Talla")}
+                    </p>
+                  </div>
+                  <div className="d-flex justify-content-center">
+                    <Link
+                      to="/TallaTs"
                       className="btn detailsBtn mainBg rounded-0 fw-bold">
                       {t("projectDetails")}
                       {"  "}
@@ -171,67 +255,6 @@ export default function SolidWasteProjects() {
                 </div>
               </div>
             </div>
-
-            <h4 className="fw-bold text-center">{t("otherProjOnMbt")}</h4>
-            <table className="w-100 my-5 projectsTable">
-              <tbody>
-                <tr>
-                  <th className="mainBg w-20 p-3 m- fs-5 fw-bold">
-                    {t("projectName")}
-                  </th>
-                  <th className="mainBg p-3 m- fs-5 fw-bold">
-                    {t("keyProjectDetails")}
-                  </th>
-                  <th className="mainBg w-20 p-3 m- fs-5 fw-bold">
-                    <i className="fa-solid fa-location-dot"></i>{" "}
-                    {t("projectLocation")}
-                  </th>
-                </tr>
-
-                <tr>
-                  <td>MBT plant in Kafer Elsheikh Gov.(2022)</td>
-                  <td>
-                    <ul>
-                      <li>
-                        {t("yearOfImplementation")} 2022 {t("Ad")}
-                      </li>
-
-                      <li>
-                        {t("projectCost")} 140 {t("millionEgp")}
-                      </li>
-                      <li>{t("fundingSource")}</li>
-                      <li>{t("designCapacity")}</li>
-                    </ul>
-                  </td>
-                  <td>{t("metops")}</td>
-                </tr>
-                <tr>
-                  <td>Obour Factory for Recycling Waste Tires (2016)</td>
-                  <td>
-                    <ul>
-                      <li>
-                        {t("yearOfImplementation")} 2016 {t("Ad")}
-                      </li>
-                      <li>{t("oburUnits")}</li>
-                      <li>{t("unitsDetails")}</li>
-                    </ul>
-                  </td>
-                  <td>{t("SocietyofEngineers")}</td>
-                </tr>
-                <tr>
-                  <td>Hebil - Luxor Factory for Recycling Plant (2018)</td>
-                  <td>
-                    <ul>
-                      <li>
-                        {t("yearOfImplementation")} 2018 {t("Ad")}
-                      </li>
-                      <li>{t("hebilCapacity")}</li>
-                    </ul>
-                  </td>
-                  <td>{t("AlHabil")}</td>
-                </tr>
-              </tbody>
-            </table>
           </div>
         </div>
       </div>

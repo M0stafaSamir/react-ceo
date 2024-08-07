@@ -71,12 +71,12 @@ export default function Project5() {
               {language === "en" ? (
                 <Link className="text-white" to="/SolidWaste Projects">
                   {" "}
-                  {t("service4")} {t("projectswithAl")}{" "}
+                  {t("designMbt")} {t("projectswithAl")}{" "}
                 </Link>
               ) : (
                 <Link className="text-white" to="/SolidWaste Projects">
                   {" "}
-                  {t("projectswithAl")} {t("service4")}{" "}
+                  {t("projectswithAl")} {t("designMbt")}{" "}
                 </Link>
               )}
             </span>{" "}
