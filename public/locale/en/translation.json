@@ -205,5 +205,38 @@
   "TallaTSDesc": "The station was established on a 3,250-square-meter area, catering to five areas with a daily waste capacity of 800 tons. This waste is transported to the factory for treatment and recycling. Any rejected waste will be transferred to the forthcoming Badr landfill in the governorate, currently under construction.",
   "TallaTSDesc2": "The station is well-equipped with a truck scale, a reception platform, fire pits, a pump set, and four designated parking spaces for waste bins under the platform, along with a car wash facility. It receives approximately 800 to 1,200 tons of waste per day.",
   "TallaTSArea": "Its area is 3250 square metres",
-  "TallaTSCapacity": "It has a waste capacity of  800-1200 tons per day"
+  "TallaTSCapacity": "It has a waste capacity of  800-1200 tons per day",
+
+  "seasideHotel": "The seaside hotel at El Galala Resort 2018",
+  "galalaResort": "galala resort - ain sokhna",
+  "seaSideDesc": "Our CEO's office takes immense pride in its pivotal role in the design of the exquisite Seaside Hotel at El Galala Resort in 2018. This project stands as a testament to our unwavering commitment to excellence and innovation in the field of hospitality and resort development. The Seaside Hotel epitomizes luxury, blending seamlessly with the breathtaking natural beauty of the coastal surroundings.",
+  "seaSideDesc2": "With a strong focus on sustainability and eco-friendly practices, our CEO's office ensured that the Seaside Hotel not only met but exceeded industry standards for environmental responsibility. The result is a destination that not only captivates with its stunning aesthetics but also sets a high benchmark for sustainable tourism and resort development.",
+  "seaSideDesc3": "In 2018, the Seaside Hotel at El Galala Resort became a symbol of luxury, comfort, and responsible design, reflecting our CEO's unwavering commitment to delivering excellence in every project undertaken. This achievement continues to inspire us to push the boundaries of innovation and design, as we look ahead to shaping more remarkable destinations in the future.",
+
+  "armedForces": "Armed Forces Entity in the Administrative Capital 2019",
+  "alAssema": "administrative capital",
+  "armedForcesDesc": "The involvement of our CEO's office in the design of the Armed Forces Entity within the Administrative Capital in 2019 is a testament to our unwavering dedication to excellence and innovation in the field of architectural and infrastructure development. This project holds immense significance as it contributes to the strategic and operational capabilities of the Armed Forces in this vital administrative hub.",
+  "armedForcesDesc2": "In 2019, our CEO's office ensured that every aspect of the project, from the layout and security infrastructure to the technological advancements, was meticulously planned and executed to perfection. This facility not only serves as a symbol of national pride but also as a cornerstone of operational efficiency for the Armed Forces.",
+  "armedForcesDesc3": "Our CEO's visionary leadership and expertise played a pivotal role in conceptualizing and executing the design for this essential government facility. The Armed Forces Entity stands as an architectural marvel, seamlessly blending functionality, security, and aesthetic appeal. It embodies the values of strength, resilience, and precision that are synonymous with the Armed Forces.",
+
+  "bicycleBuilding": "Bicycle building at Cairo Stadium",
+  "cairoStadium": "Cairo Stadium",
+  "bicycleBuildingDesc": "The design and construction of the Bicycle Building at Cairo Stadium in 2019 stands as a testament to the collaboration and expertise of our CEO's office. This project represents a significant milestone in the development of sporting infrastructure in Cairo, Egypt",
+  "bicycleBuildingDesc2": "Our CEO's visionary leadership played a pivotal role in conceptualizing and overseeing the design of the Bicycle Building. This modern architectural gem seamlessly blends functionality with aesthetics, providing a space that caters to the needs of both athletes and enthusiasts. The building's design reflects the spirit of progress and inclusivity, promoting a healthy and sustainable mode of transportation while supporting the sports and cycling communities.",
+  "bicycleBuildingDesc3": "The successful completion of the Bicycle Building at Cairo Stadium in 2019 is a prime example of our CEO's unwavering commitment to delivering excellence in every project undertaken. This project not only enhances the sporting facilities at Cairo Stadium but also promotes the culture of cycling and active living within the community. Our CEO's office continues to spearhead innovative and impactful initiatives that contribute to the betterment of Cairo's urban landscape and the well-being of its residents.",
+
+  "academicInstitute": "Academic Institute of Medicine 2020",
+  "ainShams": "Ain Shams, Cairo",
+  "academicInstituteDesc": "The design and establishment of the Academic Institute of Medicine at Ain Shams University in 2020 represent a remarkable milestone in the advancement of medical education and research in Egypt. This ambitious project exemplifies the commitment of Ain Shams University, along with the collaborative efforts of our CEO's office, to create a state-of-the-art facility that fosters excellence in medical training and healthcare innovation.",
+
+  "CairoInternationalConference": "Rehabilitation of the Cairo International Conference Center",
+  "nasrCity": "Nasr City",
+
+  "badrUniversity": "Design Badr University ",
+  "badr": "Badr City",
+  "badrUniversityDesc": "The design of the CEO's office at Badr University is a testament to both innovation and sophistication. Situated within the heart of the university's dynamic campus, this office space represents the pinnacle of modern design and functionality.",
+
+  "kingSalmanUniversity": "College of Architecture Project - King Salman International University ",
+  "sharm": "Sharm El Sheikh",
+  "kingSalmanUniversityDesc": "The CEO's office design for the College of Architecture Project at King Salman International University in Sharm El Sheikh exemplifies a harmonious blend of architectural aesthetics and functional excellence. This project represents a significant milestone in the development of this prestigious educational institution and stands as a testament to the CEO's vision for cutting-edge design."
 }

@@ -38,6 +38,13 @@ import Project11 from "./Components/Projects/FieldOfTransferStation/Project11/Pr
 import Project12 from "./Components/Projects/FieldOfTransferStation/Project12/Project12";
 import Project13 from "./Components/Projects/FieldOfTransferStation/Project13/Project13";
 import Project14 from "./Components/Projects/FieldOfTransferStation/Project14/Project14";
+import ArchAndBuildingProjects from "./Components/ArchAndBuildingProjects/ArchAndBuildingProjects";
+import Project15 from "./Components/Projects/FieldOfArchAndBuilding/Project15/Project15";
+import Project16 from "./Components/Projects/FieldOfArchAndBuilding/Project16/Project16";
+import Project17 from "./Components/Projects/FieldOfArchAndBuilding/Project17/Project17";
+import Project18 from "./Components/Projects/FieldOfArchAndBuilding/Project18/Project18";
+import Project19 from "./Components/Projects/FieldOfArchAndBuilding/Project19/Project19";
+import Project20 from "./Components/Projects/FieldOfArchAndBuilding/Project20/Project20";
 
 i18n
   .use(initReactI18next)
@@ -126,6 +133,22 @@ function App() {
         { path: "portsaidStTs", element: <Project12 /> },
         { path: "Al_QurainTs", element: <Project13 /> },
         { path: "TallaTs", element: <Project14 /> },
+        { path: "arch&buildingProjects", element: <ArchAndBuildingProjects /> },
+        { path: "seaSideHotel", element: <Project15 /> },
+        { path: "armedForces", element: <Project16 /> },
+        { path: "bicycleBuilding", element: <Project17 /> },
+        {
+          path: "AcademicInstitute",
+          element: <Project18 />,
+        },
+        {
+          path: "badrUniversity",
+          element: <Project19 />,
+        },
+        {
+          path: "kingSalmanUniversity",
+          element: <Project20 />,
+        },
       ],
     },
   ]);

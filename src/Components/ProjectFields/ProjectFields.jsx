@@ -69,7 +69,7 @@ export default function ProjectFields() {
                 <div className="d-flex justify-content-between align-items-center bg-secondary-subtle">
                   <p className="m-0 mainBg py-1 px-3 text-white fs-3">04</p>
                   <p className="m-0 py-1 px-3">
-                    <a href="#">{t("seeProjects")}</a>
+                    <Link to="/arch&buildingProjects">{t("seeProjects")}</Link>
                   </p>
                 </div>
               </div>
