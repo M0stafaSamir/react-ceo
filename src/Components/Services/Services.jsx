@@ -12,6 +12,7 @@ import service5 from "./../../assets/imgs/services/highway.webp";
 import service6 from "./../../assets/imgs/services/landscape.jpg";
 import service7 from "./../../assets/imgs/services/Infrastructures.webp";
 import service8 from "./../../assets/imgs/services/city1.webp";
+import { Link } from "react-router-dom";
 
 export default function Services() {
   const [language, setLanguage] = useState("");
@@ -68,12 +69,11 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service4_Desc")}
                     </p>
-                    <a
-                      data-i18n="knowMore"
+                    <Link
                       className="text-uppercase fw-bold mainColor"
-                      href="Solid_Waste_projects_services.html">
+                      to="/serviceFour">
                       {t("readMore")}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h5 flex-column">
@@ -94,12 +94,12 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service1_Desc")}
                     </p>
-                    <a
+                    <Link
                       className="text-uppercase fw-bold mainColor"
-                      href="architecture_and_building_service.html">
+                      to="/serviceOne">
                       {" "}
                       {t("readMore")}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">
@@ -113,12 +113,11 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service2_Desc")}
                     </p>
-                    <a
-                      data-i18n="knowMore"
+                    <Link
                       className="text-uppercase fw-bold mainColor"
-                      href="Contracts_and_Cost_Consultancy_service.html">
+                      to="/serviceTwo">
                       {t("readMore")}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">
@@ -132,12 +131,11 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service3_Desc")}
                     </p>
-                    <a
-                      data-i18n="knowMore"
+                    <Link
                       className="text-uppercase fw-bold mainColor"
-                      href="project_and_construction_service.html">
+                      to="/serviceThree">
                       {t("readMore")}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">
@@ -152,12 +150,12 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service5_Desc")}
                     </p>
-                    <a
+                    <Link
                       data-i18n="knowMore"
                       className="text-uppercase fw-bold mainColor"
-                      href="">
+                      to="/HighwaysAndBridges">
                       {t("readMore")}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">
@@ -171,12 +169,12 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service6_Desc")}
                     </p>
-                    <a
+                    <Link
                       data-i18n="knowMore"
                       className="text-uppercase fw-bold mainColor"
-                      href="">
+                      to="/LandscapingAndPublicRealm">
                       {t("readMore")}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">
@@ -190,12 +188,11 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service7_Desc")}
                     </p>
-                    <a
-                      data-i18n="knowMore"
+                    <Link
                       className="text-uppercase fw-bold mainColor"
-                      href="Utilities_and_Infrastructures_service.html">
-                      Read More
-                    </a>
+                      to="/UtilitiesAndInfrastructures">
+                      {t("readMore")}
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">
@@ -209,12 +206,12 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service8_Desc")}
                     </p>
-                    <a
+                    <Link
                       data-i18n="knowMore"
                       className="text-uppercase fw-bold mainColor"
-                      href="The_Urban_and_Master_Planning_service.html">
+                      to="/TheUrbanAndMasterPlanning">
                       {t("readMore")}
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">

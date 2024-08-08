@@ -1,5 +1,6 @@
 import { t } from "i18next";
 import React from "react";
+import { Link } from "react-router-dom";
 
 export default function Main() {
   return (
@@ -15,17 +16,15 @@ export default function Main() {
           </p>
           <div id="homeBtns">
             <a
-              data-i18n="homeBtnService"
               href="#services"
               className="btn mian-btn rounded-0 text-uppercase me-3">
               {t("exploarServices")}
             </a>
-            <a
-              data-i18n="homeBtnContact"
-              href="contactUs.html"
+            <Link
+              to="/contactUs"
               className="btn second-btn rounded-0 text-uppercase px-4 me-3">
               {t("contactUs")}
-            </a>
+            </Link>
           </div>
         </div>
       </main>

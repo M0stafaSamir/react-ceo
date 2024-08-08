@@ -4,6 +4,7 @@ import { t } from "i18next";
 import officePic from "./../../assets/imgs/backgrounds/office.jpg";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import { Link } from "react-router-dom";
 
 export default function WhoWeAre() {
   const [language, setLanguage] = useState("");
@@ -41,17 +42,17 @@ export default function WhoWeAre() {
                 <p className="fw-medium lh-lg">{t("whoWeAreParagraph")}</p>
               </div>
               <div className="slideup3">
-                <a
+                <Link
                   data-i18n="knowMore"
                   className="text-uppercase fw-bold"
-                  href="aboutus.html">
+                  to="/aboutUs">
                   {t("readMore")}{" "}
                   {language === "en" ? (
                     <i className="fa-solid fa-angles-right"></i>
                   ) : (
                     <i className="fa-solid fa-angles-left"></i>
                   )}
-                </a>
+                </Link>
               </div>
             </div>
           </div>

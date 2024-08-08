@@ -157,20 +157,47 @@ export default function Navbar() {
                 </a>
                 <ul className="dropdown-menu border-0 pt-0">
                   <li>
-                    <a
+                    <NavLink
                       className="dropdown-item ps-4"
                       data-i18n="projectOne"
-                      href="#">
-                      Action
-                    </a>
+                      to="/SolidWaste Projects">
+                      {t("designMbt")}
+                    </NavLink>
                   </li>
                   <li>
-                    <a
+                    <NavLink
                       className="dropdown-item ps-4"
-                      data-i18n="projectTwo"
-                      href="#">
-                      Another action
-                    </a>
+                      to="/transferStation">
+                      {t("transferStation")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className="dropdown-item ps-4"
+                      to="/sanitarylandfillsprojects">
+                      {t("sanitaryLandfills")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className="dropdown-item ps-4"
+                      to="/arch&buildingProjects">
+                      {t("service1")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className="dropdown-item ps-4"
+                      to="/EnvServicesAlternativeEnergy">
+                      {t("altEnergy")}
+                    </NavLink>
+                  </li>
+                  <li>
+                    <NavLink
+                      className="dropdown-item ps-4"
+                      to="/ConsultancyServicesProjects">
+                      {t("consultancyServices")}
+                    </NavLink>
                   </li>
                 </ul>
               </li>

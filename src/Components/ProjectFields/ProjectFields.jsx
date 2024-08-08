@@ -12,7 +12,7 @@ export default function ProjectFields() {
             </span>
           </h2>
           <div className="row g-4">
-            <div className="col-md-4 col-lg-3">
+            <div className="col-md-6 col-lg-4">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
@@ -27,7 +27,7 @@ export default function ProjectFields() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-3">
+            <div className="col-md-6 col-lg-4">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
@@ -42,7 +42,7 @@ export default function ProjectFields() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-3">
+            <div className="col-md-6 col-lg-4">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
@@ -59,7 +59,7 @@ export default function ProjectFields() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-3">
+            <div className="col-md-6 col-lg-4">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
@@ -74,41 +74,41 @@ export default function ProjectFields() {
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-3">
+            <div className="col-md-6 col-lg-4">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
                   <p className="mainColor fw-medium">{t("projectswithAl")}</p>
-                  <h5 className="fw-bold" data-i18n="service5">
-                    {t("service5")}
-                  </h5>
+                  <h5 className="fw-bold">{t("altEnergy")}</h5>
                 </div>
                 <div className="d-flex justify-content-between align-items-center bg-secondary-subtle">
                   <p className="m-0 mainBg py-1 px-3 text-white fs-3">05</p>
                   <p className="m-0 py-1 px-3">
-                    <a href="#">{t("seeProjects")}</a>
+                    <Link to="/EnvServicesAlternativeEnergy">
+                      {t("seeProjects")}
+                    </Link>
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-3">
+            <div className="col-md-6 col-lg-4">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
                   <p className="mainColor fw-medium">{t("projectswithAl")}</p>
-                  <h5 className="fw-bold" data-i18n="service6">
-                    {t("service6")}
-                  </h5>
+                  <h5 className="fw-bold">{t("consultancyServices")}</h5>
                 </div>
                 <div className="d-flex justify-content-between align-items-center bg-secondary-subtle">
                   <p className="m-0 mainBg py-1 px-3 text-white fs-3">06</p>
                   <p className="m-0 py-1 px-3">
-                    <a href="#">{t("seeProjects")}</a>
+                    <Link to="/ConsultancyServicesProjects">
+                      {t("seeProjects")}
+                    </Link>
                   </p>
                 </div>
               </div>
             </div>
-            <div className="col-md-4 col-lg-3">
+            {/* <div className="col-md-4 col-lg-3">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
@@ -124,8 +124,8 @@ export default function ProjectFields() {
                   </p>
                 </div>
               </div>
-            </div>
-            <div className="col-md-4 col-lg-3">
+            </div> */}
+            {/* <div className="col-md-4 col-lg-3">
               <div className="projectField position-relative shadow">
                 <span className="linewidth"></span>
                 <div className="text-center text-capitalize p-3">
@@ -141,7 +141,7 @@ export default function ProjectFields() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

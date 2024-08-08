@@ -45,6 +45,15 @@ import Project17 from "./Components/Projects/FieldOfArchAndBuilding/Project17/Pr
 import Project18 from "./Components/Projects/FieldOfArchAndBuilding/Project18/Project18";
 import Project19 from "./Components/Projects/FieldOfArchAndBuilding/Project19/Project19";
 import Project20 from "./Components/Projects/FieldOfArchAndBuilding/Project20/Project20";
+import EnvAndAltEnergyProjects from "./Components/EnvAndAltEnergyProjects/EnvAndAltEnergyProjects";
+import Project22 from "./Components/Projects/FieldOfEnvAndAltEnergy/Project22/Project22";
+import Project23 from "./Components/Projects/FieldOfEnvAndAltEnergy/Project23/Project23";
+import Project24 from "./Components/Projects/FieldOfEnvAndAltEnergy/Project24/Project24";
+import Project25 from "./Components/Projects/FieldOfEnvAndAltEnergy/Project25/Project25";
+import Project26 from "./Components/Projects/FieldOfEnvAndAltEnergy/Project26/Project26";
+import ConsultancyServicesProjects from "./Components/ConsultancyServicesProjects/ConsultancyServicesProjects";
+import Project28 from "./Components/Projects/FieldOfConsultancyServices/Project28/Project28";
+import Project29 from "./Components/Projects/FieldOfConsultancyServices/Project29/Project29";
 
 i18n
   .use(initReactI18next)
@@ -148,6 +157,42 @@ function App() {
         {
           path: "kingSalmanUniversity",
           element: <Project20 />,
+        },
+        {
+          path: "EnvServicesAlternativeEnergy",
+          element: <EnvAndAltEnergyProjects />,
+        },
+        {
+          path: "luxorRecyclingWasteFactory",
+          element: <Project22 />,
+        },
+        {
+          path: "sortinglineinQena",
+          element: <Project23 />,
+        },
+        {
+          path: "SolidWasteCharacterizationStudyGiza",
+          element: <Project24 />,
+        },
+        {
+          path: "WastetoEnergyPlantAbuRawash",
+          element: <Project25 />,
+        },
+        {
+          path: "SolidWasteCharacterizationStudy15May",
+          element: <Project26 />,
+        },
+        {
+          path: "ConsultancyServicesProjects",
+          element: <ConsultancyServicesProjects />,
+        },
+        {
+          path: "WasteCharacterizationStudyQalubia",
+          element: <Project28 />,
+        },
+        {
+          path: "WasteCharacterizationStudyFayoum&Minya",
+          element: <Project29 />,
         },
       ],
     },

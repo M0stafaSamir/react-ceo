@@ -16,6 +16,9 @@
   "service6": "Landscaping and Public Realm",
   "service7": "Utilities and Infrastructures",
   "service8": "The Urban and Master Planning",
+  "altEnergy": "Environmental Services and Alternative Energy",
+  "consultancyServices": "Consultancy Services",
+
   "service4_fields": "(intermediate stations - waste treatment and recycling plants - waste landfills)",
   "whoWeAre": "Who we are",
   "whoWeAreParagraph": "Founded in 2008 in Cairo, Egypt, Construction Engineering Office (CEO) was established by a group of highly experienced engineers and architects. Over the years, CEO has emerged as a leading Engineering Consultancy firm in the region, specializing in Civil Engineering and Architectural Services.Starting modestly with a small team, we have now expanded to employ a workforce of over a hundred professionals, including Engineers, Architects, Cost Consultants, and Construction Management Experts.",
@@ -238,5 +241,39 @@
 
   "kingSalmanUniversity": "College of Architecture Project - King Salman International University ",
   "sharm": "Sharm El Sheikh",
-  "kingSalmanUniversityDesc": "The CEO's office design for the College of Architecture Project at King Salman International University in Sharm El Sheikh exemplifies a harmonious blend of architectural aesthetics and functional excellence. This project represents a significant milestone in the development of this prestigious educational institution and stands as a testament to the CEO's vision for cutting-edge design."
+  "kingSalmanUniversityDesc": "The CEO's office design for the College of Architecture Project at King Salman International University in Sharm El Sheikh exemplifies a harmonious blend of architectural aesthetics and functional excellence. This project represents a significant milestone in the development of this prestigious educational institution and stands as a testament to the CEO's vision for cutting-edge design.",
+
+  "luxorRecyclingWasteFactory": "Agricultural Waste Recycling Factory in Luxor",
+  "luxor": "Luxor Governorate",
+  "luxorRecyclingWasteFactoryDesc": "Collaboration with Bedaya Company for the Establishment of an Agricultural Waste Recycling Factory in Luxor Governorate, involving:",
+  "keypoint1": "Providing consultancy services for the design of all mechanical equipment",
+  "keypoint2": "Developing an operational plan for the factory.",
+  "keypoint3": "Overseeing the factory's operational processes to ensure optimal performance.",
+
+  "qenaSortingFactory": "Design and manufacture of a sorting line in Qena",
+  "qena": "Qena Governorate ",
+  "qenaSortingFactoryDesc": "In the field of design and manufacturing (solid waste) : Design and manufacture of a sorting line in Qena Governorate 2016 Design and manufacture of alternative fuel grinding machines. Design and manufacture of a mobile intermediate station in Luxor",
+
+  "solidWasteCharacterizationGiza": "Seasonal Municipal Solid Waste Characterization Study in Giza Governorate",
+  "giza": "Giza Governorate",
+  "solidWasteCharacterizationGizaDesc": "This field study aims to determine the characteristics and nature of municipal solid waste in the Giza Governorate. Which will be relied upon in preparing the appropriate design for the municipal solid waste treatment facility, commensurate with the nature of the site and the waste generated within the scope of the service.",
+
+  "WasteToEnergyPlant": "1200 TPD Waste to Energy Plant Abu Rawash",
+  "abuRawash": "Abu Rawash, Giza, Egypt",
+  "WasteToEnergyPlantDesc": "The daily MSW Incineration capacity is designed by 1360 tons, and the maximum is 1495 tons. Two mechanical grate incinerators with the capacity 680t/d are applied for this project, equipped with one 36MW condensing air cooled steam turbine and one 38MW generator, as well as supporting production and office facilities. Project Location : Abu Rawash WtE is in Abu Rawash industrial area. The Project is located on Mohamed El Shaarany Road, which connects the site to the 26 of July corridor, and to Alexandria desert road. Project service scope is the revise of the waste to energy design plant (Mechanical, structure,  ..etc)",
+
+  "solidWasteCharacterization15ofMay": "Municipal Solid Waste Characterization Study in 15th of May Cairo Governorate",
+  "15may": "15th of May Cairo Governorate",
+  "15mayDesc": "The objective of this field study is to ascertain the composition and properties of municipal solid waste in the Cairo-15th of May area. This information will serve as the foundation for developing a suitable design for a municipal solid waste treatment facility that aligns with the site's characteristics and the waste generated within the service area.",
+  "15mayDesc2": "The results comprise the key chemical properties of the municipal solid waste including the moisture content, calorific value, and ash content. The calorific value is also obtained using an empirical formula as an alternative method.",
+
+  "wasteStudyInQalubia": "Waste Characterization Study in Qalubia Governorate, Egypt ",
+  "Qalubia": "Qalubia Governorate, Egypt",
+  "wasteStudyInQalubiaDesc": "A visual study of the accumulated waste on the plot of land This part of the study includes a field assessment of the waste accumulated on the ground, including the type, quantity, and distribution of waste. This analysis aims to understand the current situation of waste accumulation and the extent of its impact on the surrounding environment.",
+  "wasteStudyInQalubiaDesc2": "Taking a random sample of the accumulated waste, representative (based on international codes ASTMD 5231-92) and local codes (Egyptian code for design principles and implementation conditions for municipal solid waste management systems). ",
+
+  "wasteStudyInFayoumAndMinya": "Waste Characterization Study in Fayoum and Minya, Egypt",
+  "secondWasteSInFandM": "Center for Environment and Development for the Arab Region and Europe (CEDARE)",
+  "wasteStudyInFayoumAndMinyaDesc": "With the waste management services being deficient, municipalities and rural communities would dispose of the waste by burning it outdoors which affects air quality in addition to cultivated areas or dispose of it near irrigation or sanitary water canals, ravines, and uncultivated land which causes a serious environmental problem. This is a common scenario in the rural areas of developing countries such as India, Mexico, and Egypt. Moreover, there is an absence of data on the characteristics, quantity, density, and generation rate of the waste which increases the challenges of providing sustainable solid waste management (SWM) services.",
+  "wasteStudyInFayoumAndMinyaDesc2": "The targeted study area of this project covers three villages in Markaz Etsa in Fayoum Governorate: (1) Qalamshah, (2) Monshat Ramzy, and (3) Abou Defeya. The main objective of the project is to perform a municipal solid waste (MSW) characterization study in these three villages including the waste disposed in water ways where MSW management services are either non-existent or insufficient: thus, making them a high priority and an effective advancement step towards achieving the bigger goal of sustainable municipal solid waste management."
 }
