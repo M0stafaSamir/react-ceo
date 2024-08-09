@@ -790,3 +790,31 @@ ol {
   direction: ltr !important;
 }
 /*project page*/
+
+/*Search page*/
+.search-popup {
+  position: absolute;
+  top: 100%;
+  right: 8%;
+  width: 300px;
+  background-color: white;
+  padding: 10px;
+
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.search-popup .input-group {
+  display: flex;
+  align-items: center;
+}
+
+.search-popup .form-control {
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+.search-popup .btn-primary {
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}

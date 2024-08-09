@@ -4,10 +4,9 @@ import Cookies from "js-cookie";
 import { Link } from "react-router-dom";
 
 import aboutBG from "./../../assets/imgs/backgrounds/dam_dejvice_9.jpg";
-import office from "./../../assets/imgs/backgrounds/office.jpg";
+import office from "./../../assets/imgs/backgrounds/office.jpeg";
 import toolsPic from "./../../assets/imgs/backgrounds/output-onlinepngtools.png";
 import OurClients from "../OurClients/OurClients";
-import VisionMission from "../VisionMission/VisionMission";
 
 export default function AboutUs() {
   const [language, setLanguage] = useState("");
@@ -47,20 +46,39 @@ export default function AboutUs() {
             <h1 className="text-uppercase fw-bold text-center mb-5">
               {t("aboutUs")}
             </h1>
-            <div className="row g-5 py-5">
+            <div className="row flex-sm-row-reverse g-5 py-5">
+              <div className="col-lg-6">
+                <div className="h-100 shadow">
+                  <img
+                    className="w-100 h-100 object-fit-cover animate__animated animate__slideInUp"
+                    src={office}
+                    alt="office"
+                  />
+                </div>
+              </div>
               <div className="col-lg-6">
                 <div className="fw-medium lh-lg">
                   <p>{t("whoWeAreParagraph")}</p>
                   <p>{t("whoWeAreParagraph2")}</p>
-                </div>
-              </div>
-              <div className="col-lg-6">
-                <div>
-                  <img
-                    className="w-100 h-450px object-fit-cover animate__animated animate__slideInUp"
-                    src={office}
-                    alt="office"
-                  />
+                  <div className="d-flex">
+                    <ol>
+                      <li>{t("whoWeAreService1")}</li>
+                      <li>{t("whoWeAreService2")}</li>
+                      <li>{t("whoWeAreService3")}</li>
+                      <li>{t("whoWeAreService4")}</li>
+                      <li>{t("whoWeAreService5")}</li>
+                      <li>{t("whoWeAreService6")}</li>
+                      <li>{t("whoWeAreService7")}</li>
+                    </ol>
+                    <ol start={8}>
+                      <li>{t("whoWeAreService8")}</li>
+                      <li>{t("whoWeAreService9")}</li>
+                      <li>{t("whoWeAreService10")}</li>
+                      <li>{t("whoWeAreService11")}</li>
+                      <li>{t("whoWeAreService12")}</li>
+                      <li>{t("whoWeAreService13")}</li>
+                    </ol>
+                  </div>
                 </div>
               </div>
             </div>

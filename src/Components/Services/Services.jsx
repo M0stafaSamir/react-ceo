@@ -60,7 +60,7 @@ export default function Services() {
               {t("services")}
             </span>
           </h2>
-          <div className="slider">
+          <div dir="ltr" className="slider">
             <ReactOwlCarousel {...options} className="owl-theme">
               <div className="slider-card shadow">
                 <div className="srv-img-container overflow-hidden position-relative rounded-1">
@@ -206,12 +206,11 @@ export default function Services() {
                     <p className="text-white ellipsis-multiline">
                       {t("service8_Desc")}
                     </p>
-                    <Link
-                      data-i18n="knowMore"
+                    <a
                       className="text-uppercase fw-bold mainColor"
-                      to="/TheUrbanAndMasterPlanning">
+                      href="/TheUrbanAndMasterPlanning">
                       {t("readMore")}
-                    </Link>
+                    </a>
                   </div>
                 </div>
                 <h5 className="mb-0 text-center p-3 h4">

@@ -54,6 +54,8 @@ import Project26 from "./Components/Projects/FieldOfEnvAndAltEnergy/Project26/Pr
 import ConsultancyServicesProjects from "./Components/ConsultancyServicesProjects/ConsultancyServicesProjects";
 import Project28 from "./Components/Projects/FieldOfConsultancyServices/Project28/Project28";
 import Project29 from "./Components/Projects/FieldOfConsultancyServices/Project29/Project29";
+import ScrollToTop from "./ScrollToTop";
+import SearchPage from "./Components/SearchPage/SearchPage";
 
 i18n
   .use(initReactI18next)
@@ -109,20 +111,47 @@ function App() {
   let router = createBrowserRouter([
     {
       path: "/",
-      element: <Layout />,
+      element: (
+        <>
+          <ScrollToTop />
+          <Layout />
+        </>
+      ),
       children: [
-        { index: true, element: <Home /> },
-        { path: "serviceOne", element: <ServiceOne /> },
+        {
+          index: true,
+          element: (
+            <>
+              <Home />
+            </>
+          ),
+        },
+        {
+          path: "serviceOne",
+          element: <ServiceOne />,
+        },
         { path: "serviceTwo", element: <ServiceTwo /> },
         { path: "serviceThree", element: <ServiceThree /> },
-        { path: "serviceFour", element: <ServiceFour /> },
+        {
+          path: "serviceFour",
+          element: <ServiceFour />,
+        },
         { path: "HighwaysAndBridges", element: <ServiceFive /> },
         { path: "LandscapingAndPublicRealm", element: <ServiceSix /> },
         { path: "UtilitiesAndInfrastructures", element: <ServiceSeven /> },
         { path: "TheUrbanAndMasterPlanning", element: <ServiceEight /> },
-        { path: "aboutUs", element: <AboutUs /> },
-        { path: "contactUs", element: <ContactUs /> },
-        { path: "SolidWaste Projects", element: <SolidWasteMbtProjects /> },
+        {
+          path: "aboutUs",
+          element: <AboutUs />,
+        },
+        {
+          path: "contactUs",
+          element: <ContactUs />,
+        },
+        {
+          path: "SolidWaste Projects",
+          element: <SolidWasteMbtProjects />,
+        },
         { path: "mahallaProjectMbt", element: <Project1 /> },
         { path: "manzallaProjectMbt", element: <Project2 /> },
         { path: "sandoubProjectMbt", element: <Project3 /> },
@@ -194,13 +223,19 @@ function App() {
           path: "WasteCharacterizationStudyFayoum&Minya",
           element: <Project29 />,
         },
+        {
+          path: "/search",
+          element: <SearchPage />,
+        },
       ],
     },
   ]);
 
   return (
     <>
-      <RouterProvider router={router}></RouterProvider>
+      <RouterProvider router={router}>
+        <ScrollToTop />
+      </RouterProvider>
     </>
   );
 }

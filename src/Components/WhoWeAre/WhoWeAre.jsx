@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import Cookies from "js-cookie";
 import { t } from "i18next";
-import officePic from "./../../assets/imgs/backgrounds/office.jpg";
+import officePic from "./../../assets/imgs/backgrounds/office.jpeg";
 import Aos from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-router-dom";
@@ -42,10 +42,7 @@ export default function WhoWeAre() {
                 <p className="fw-medium lh-lg">{t("whoWeAreParagraph")}</p>
               </div>
               <div className="slideup3">
-                <Link
-                  data-i18n="knowMore"
-                  className="text-uppercase fw-bold"
-                  to="/aboutUs">
+                <Link className="text-uppercase fw-bold" to="/aboutUs">
                   {t("readMore")}{" "}
                   {language === "en" ? (
                     <i className="fa-solid fa-angles-right"></i>

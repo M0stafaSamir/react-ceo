@@ -6,11 +6,31 @@ import arabicFlag from "./../../assets/imgs/flags/egypt-flag-icon.svg";
 import englishFlag from "./../../assets/imgs/flags/united-kingdom-flag-icon.svg";
 import i18n from "i18next";
 import { NavLink } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
   // const handleRefresh = () => {
   //   window.location.reload();
   // };
+
+  //search toogke
+  const [isSearchOpen, setIsSearchOpen] = useState(false);
+
+  const toggleSearch = () => {
+    setIsSearchOpen(!isSearchOpen);
+  };
+  //////////////////////////////////////////////
+
+  //search
+  const [query, setQuery] = useState("");
+  const navigate = useNavigate();
+
+  const handleSearch = () => {
+    navigate(`/search?s=${query}`);
+    setIsSearchOpen(false);
+  };
+
+  ////////////////////////////////////////////////
 
   const [language, setLanguage] = useState("");
   const lng = Cookies.get("i18next") || "en";
@@ -247,9 +267,35 @@ export default function Navbar() {
                   </button>
                 </li>
               )}
+              <li className="nav-item">
+                <span
+                  className="nav-link text-capitalize underLine text-white fw-medium"
+                  onClick={toggleSearch}>
+                  <i className="fa-solid fa-magnifying-glass"></i>
+                </span>
+              </li>
             </ul>
           </div>
         </div>
+        {isSearchOpen && (
+          <div className="search-popup position-absolute ">
+            <div className="input-group">
+              <input
+                value={query}
+                type="text"
+                onChange={(e) => setQuery(e.target.value)}
+                className="form-control"
+                placeholder="Search..."
+              />
+              <button
+                onClick={handleSearch}
+                className="btn btn-primary"
+                type="button">
+                Search
+              </button>
+            </div>
+          </div>
+        )}
       </nav>
     </>
   );
